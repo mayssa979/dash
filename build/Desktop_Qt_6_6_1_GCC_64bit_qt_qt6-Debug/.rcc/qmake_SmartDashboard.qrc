@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/SmartDashboard">
+    <file alias="qmldir">/home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/build/Desktop_Qt_6_6_1_GCC_64bit_qt_qt6-Debug/SmartDashboard/qmldir</file>
+  </qresource>
+</RCC>
+

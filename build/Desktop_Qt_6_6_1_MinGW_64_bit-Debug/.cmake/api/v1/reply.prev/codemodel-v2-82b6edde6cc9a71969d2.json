@@ -1,0 +1,169 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f19a6a6a1ef7dd4e955b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "SmartDashboard",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-e172d0686e74823d4d3c.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-125ba9b26dd766813737.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-51eabaa2369f6ae96393.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-f321acef16038a911bd1.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSmartDashboard::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSmartDashboard-Debug-b4a26916a88a311ccd7c.json",
+					"name" : "appSmartDashboard",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSmartDashboard_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSmartDashboard_autogen-Debug-57ff332ff45bf54b5bec.json",
+					"name" : "appSmartDashboard_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSmartDashboard_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSmartDashboard_autogen_timestamp_deps-Debug-387d9da2751a948efa93.json",
+					"name" : "appSmartDashboard_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSmartDashboard_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSmartDashboard_qmlimportscan-Debug-eeea87b099076cd63df1.json",
+					"name" : "appSmartDashboard_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSmartDashboard_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSmartDashboard_qmllint-Debug-1bd5feb066971778431e.json",
+					"name" : "appSmartDashboard_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSmartDashboard_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSmartDashboard_qmllint_json-Debug-c20acc65599ad3a8613c.json",
+					"name" : "appSmartDashboard_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSmartDashboard_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSmartDashboard_qmllint_module-Debug-6abae05e3cbbb25f988d.json",
+					"name" : "appSmartDashboard_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSmartDashboard_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSmartDashboard_qmltyperegistration-Debug-b218f838a8ee0342612d.json",
+					"name" : "appSmartDashboard_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSmartDashboard_tooling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSmartDashboard_tooling-Debug-bb561c39e0558be8ec28.json",
+					"name" : "appSmartDashboard_tooling",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Mayssa Bs/Desktop/PFE2-ING/SmartHomeDashboardNew-master/build/Desktop_Qt_6_6_1_MinGW_64_bit-Debug",
+		"source" : "C:/Users/Mayssa Bs/Desktop/PFE2-ING/SmartHomeDashboardNew-master"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

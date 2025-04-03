@@ -1,0 +1,14 @@
+-rootPath
+/home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main
+-cmake-output
+-output-file
+/home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/build/Desktop_Qt_6_6_1_GCC_64bit_qt_qt6-Debug/.qt_plugins/Qt6_QmlPlugins_Imports_appSmartDashboard.cmake
+-importPath
+/home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/build/Desktop_Qt_6_6_1_GCC_64bit_qt_qt6-Debug/SmartDashboard
+-importPath
+/home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/build/Desktop_Qt_6_6_1_GCC_64bit_qt_qt6-Debug
+-importPath
+/home/Qt/6.6.1/gcc_64/./qml
+-qrcFiles
+/home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/build/Desktop_Qt_6_6_1_GCC_64bit_qt_qt6-Debug/.rcc/qmake_SmartDashboard.qrc
+/home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/build/Desktop_Qt_6_6_1_GCC_64bit_qt_qt6-Debug/.rcc/appSmartDashboard_raw_qml_0.qrc

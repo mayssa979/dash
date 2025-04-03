@@ -1,0 +1,193 @@
+[
+    {
+        "classes": [
+            {
+                "classInfos": [
+                    {
+                        "name": "QML.Creatable",
+                        "value": "false"
+                    },
+                    {
+                        "name": "QML.UncreatableReason",
+                        "value": "Not intended to be creatable"
+                    }
+                ],
+                "className": "QmlMqttSubscription",
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "member": "m_topic",
+                        "name": "topic",
+                        "notify": "topicChanged",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QMqttTopicFilter",
+                        "user": false
+                    }
+                ],
+                "qualifiedClassName": "QmlMqttSubscription",
+                "signals": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "topicChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "msg",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "messageReceived",
+                        "returnType": "void"
+                    }
+                ],
+                "slots": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "qmsg",
+                                "type": "QMqttMessage"
+                            }
+                        ],
+                        "name": "handleMessage",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            },
+            {
+                "classInfos": [
+                    {
+                        "name": "QML.Element",
+                        "value": "MqttClient"
+                    },
+                    {
+                        "name": "QML.Extended",
+                        "value": "QMqttClient"
+                    },
+                    {
+                        "name": "QML.ExtensionIsNamespace",
+                        "value": "true"
+                    }
+                ],
+                "className": "QmlMqttClient",
+                "methods": [
+                    {
+                        "access": "public",
+                        "name": "connectToHost",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "disconnectFromHost",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "topic",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "subscribe",
+                        "returnType": "QmlMqttSubscription*"
+                    }
+                ],
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "name": "hostname",
+                        "notify": "hostnameChanged",
+                        "read": "hostname",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "write": "setHostname"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 1,
+                        "name": "port",
+                        "notify": "portChanged",
+                        "read": "port",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "write": "setPort"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 2,
+                        "name": "state",
+                        "notify": "stateChanged",
+                        "read": "state",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QMqttClient::ClientState",
+                        "user": false,
+                        "write": "setState"
+                    }
+                ],
+                "qualifiedClassName": "QmlMqttClient",
+                "signals": [
+                    {
+                        "access": "public",
+                        "name": "hostnameChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "portChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "stateChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "qmlmqttclient.h",
+        "outputRevision": 68
+    }
+]

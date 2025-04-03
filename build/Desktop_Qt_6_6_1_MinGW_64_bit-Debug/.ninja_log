@@ -1,0 +1,101 @@
+# ninja log v6
+92	373	7648569286955764	appSmartDashboard_autogen/mocs_compilation.cpp	edda87211098f1c0
+245	459	7646965240630359	C:/Users/Mayssa Bs/Desktop/PFE2-ING/SmartHomeDashboardNew-master/build/Desktop_Qt_6_6_1_MinGW_64_bit-Debug/SmartDashboard/assets/fonts/CodecPro-Italic.ttf	70073c1dd246e07a
+81	167	7648582917721384	C:/Users/Mayssa Bs/Desktop/PFE2-ING/SmartHomeDashboardNew-master/build/Desktop_Qt_6_6_1_MinGW_64_bit-Debug/SmartDashboard/qml/components/RightPaneLightSwitchComponent.qml	fad4d468da8fa4c4
+58	124	7648579659045683	C:/Users/Mayssa Bs/Desktop/PFE2-ING/SmartHomeDashboardNew-master/build/Desktop_Qt_6_6_1_MinGW_64_bit-Debug/SmartDashboard/qml/components/LeftPane.qml	388d920484738c38
+59	159	7648582917469921	SmartDashboard/qml/Main.qml	25791a2cd287d6f7
+60	118	7648585089980789	C:/Users/Mayssa Bs/Desktop/PFE2-ING/SmartHomeDashboardNew-master/build/Desktop_Qt_6_6_1_MinGW_64_bit-Debug/SmartDashboard/qml/components/RightPane.qml	f3f62540285ed0aa
+36	203	7646965237742929	SmartDashboard/qml/components/IconLabel.qml	eb20bb949dd54bab
+324	594	7648585094528942	.rcc/qmlcache/appSmartDashboard_qml/components/RightPane_qml.cpp	bda10efb426b7bc3
+68	148	7648579659362329	C:/Users/Mayssa Bs/Desktop/PFE2-ING/SmartHomeDashboardNew-master/build/Desktop_Qt_6_6_1_MinGW_64_bit-Debug/SmartDashboard/qml/components/MiddlePane.qml	1118157709fe4afc
+59	159	7648582917469921	C:/Users/Mayssa Bs/Desktop/PFE2-ING/SmartHomeDashboardNew-master/build/Desktop_Qt_6_6_1_MinGW_64_bit-Debug/SmartDashboard/qml/Main.qml	25791a2cd287d6f7
+36	203	7646965237742929	C:/Users/Mayssa Bs/Desktop/PFE2-ING/SmartHomeDashboardNew-master/build/Desktop_Qt_6_6_1_MinGW_64_bit-Debug/SmartDashboard/qml/components/IconLabel.qml	eb20bb949dd54bab
+58	124	7648579659045683	SmartDashboard/qml/components/LeftPane.qml	388d920484738c38
+91	245	7646965238190168	C:/Users/Mayssa Bs/Desktop/PFE2-ING/SmartHomeDashboardNew-master/build/Desktop_Qt_6_6_1_MinGW_64_bit-Debug/SmartDashboard/qml/components/MiddlePaneWidget.qml	2e253a4d79bf0d9b
+1268	6069	7648582928770729	CMakeFiles/appSmartDashboard.dir/283b575e6332532cf316df0455995ddd/appSmartDashboard_qml/components/RightPaneLightSwitchComponent_qml.cpp.obj	8e3eaf25681abd8c
+68	148	7648579659362329	SmartDashboard/qml/components/MiddlePane.qml	1118157709fe4afc
+91	245	7646965238190168	SmartDashboard/qml/components/MiddlePaneWidget.qml	2e253a4d79bf0d9b
+336	1071	7648585099393123	C:/Users/Mayssa Bs/Desktop/PFE2-ING/SmartHomeDashboardNew-master/build/Desktop_Qt_6_6_1_MinGW_64_bit-Debug/.rcc/qrc_appSmartDashboard_raw_qml_0.cpp	fc2dc4c1996552c6
+1312	1468	7646965250842111	.rcc/qrc_qmake_SmartDashboard.cpp	35086f0136969a01
+60	118	7648585089980789	SmartDashboard/qml/components/RightPane.qml	f3f62540285ed0aa
+378	772	7648582923276766	C:/Users/Mayssa Bs/Desktop/PFE2-ING/SmartHomeDashboardNew-master/build/Desktop_Qt_6_6_1_MinGW_64_bit-Debug/.rcc/qmlcache/appSmartDashboard_qml/Main_qml.cpp	51b6b2b0f990108c
+72	324	7648585091970279	.qt_plugins/Qt6_QmlPlugins_Imports_appSmartDashboard.cmake	d288fd2a3157cfab
+140	323	7646965238857065	SmartDashboard/qml/components/Switch.qml	6bbe9e20abb06e93
+140	323	7646965238857065	C:/Users/Mayssa Bs/Desktop/PFE2-ING/SmartHomeDashboardNew-master/build/Desktop_Qt_6_6_1_MinGW_64_bit-Debug/SmartDashboard/qml/components/Switch.qml	6bbe9e20abb06e93
+204	394	7646965239524565	SmartDashboard/qml/components/Progressbar.qml	57335dd72048acbe
+1312	1468	7646965250842111	C:/Users/Mayssa Bs/Desktop/PFE2-ING/SmartHomeDashboardNew-master/build/Desktop_Qt_6_6_1_MinGW_64_bit-Debug/.rcc/qrc_qmake_SmartDashboard.cpp	35086f0136969a01
+204	394	7646965239524565	C:/Users/Mayssa Bs/Desktop/PFE2-ING/SmartHomeDashboardNew-master/build/Desktop_Qt_6_6_1_MinGW_64_bit-Debug/SmartDashboard/qml/components/Progressbar.qml	57335dd72048acbe
+81	167	7648582917721384	SmartDashboard/qml/components/RightPaneLightSwitchComponent.qml	fad4d468da8fa4c4
+442	527	7648569290565890	C:/Users/Mayssa Bs/Desktop/PFE2-ING/SmartHomeDashboardNew-master/build/Desktop_Qt_6_6_1_MinGW_64_bit-Debug/meta_types/qt6appsmartdashboard_debug_metatypes.json.gen	f19282f0d368580
+245	459	7646965240630359	SmartDashboard/assets/fonts/CodecPro-Italic.ttf	70073c1dd246e07a
+231	461	7646965240416386	C:/Users/Mayssa Bs/Desktop/PFE2-ING/SmartHomeDashboardNew-master/build/Desktop_Qt_6_6_1_MinGW_64_bit-Debug/SmartDashboard/qml/components/CircularProgressBar.qml	8d17138e4a3d4409
+231	461	7646965240416386	SmartDashboard/qml/components/CircularProgressBar.qml	8d17138e4a3d4409
+1707	2525	7647017614445357	.rcc/qmlcache/appSmartDashboard_qml/components/MiddlePaneWidget_qml.cpp	bded7bf1d3b587bf
+259	466	7646965240786621	SmartDashboard/assets/fonts/CodecPro-Regular.ttf	8de7bea1ef4f43af
+259	466	7646965240786621	C:/Users/Mayssa Bs/Desktop/PFE2-ING/SmartHomeDashboardNew-master/build/Desktop_Qt_6_6_1_MinGW_64_bit-Debug/SmartDashboard/assets/fonts/CodecPro-Regular.ttf	8de7bea1ef4f43af
+323	468	7646965240942853	SmartDashboard/assets/fonts/fontawesome.otf	2238922a72dcf636
+336	1071	7648585099393123	.rcc/qrc_appSmartDashboard_raw_qml_0.cpp	fc2dc4c1996552c6
+323	468	7646965240942853	C:/Users/Mayssa Bs/Desktop/PFE2-ING/SmartHomeDashboardNew-master/build/Desktop_Qt_6_6_1_MinGW_64_bit-Debug/SmartDashboard/assets/fonts/fontawesome.otf	2238922a72dcf636
+72	324	7648585091970279	C:/Users/Mayssa Bs/Desktop/PFE2-ING/SmartHomeDashboardNew-master/build/Desktop_Qt_6_6_1_MinGW_64_bit-Debug/.qt_plugins/Qt6_QmlPlugins_Imports_appSmartDashboard.cmake	d288fd2a3157cfab
+1401	1642	7647017605655979	C:/Users/Mayssa Bs/Desktop/PFE2-ING/SmartHomeDashboardNew-master/build/Desktop_Qt_6_6_1_MinGW_64_bit-Debug/appsmartdashboard_qmltyperegistrations.cpp	c15a7a9850b35493
+442	527	7648569290565890	C:/Users/Mayssa Bs/Desktop/PFE2-ING/SmartHomeDashboardNew-master/build/Desktop_Qt_6_6_1_MinGW_64_bit-Debug/meta_types/qt6appsmartdashboard_debug_metatypes.json	f19282f0d368580
+767	857	7646965244880787	.rcc/qmlcache/appSmartDashboard_qmlcache_loader.cpp	e79622b05bb25cef
+767	857	7646965244880787	C:/Users/Mayssa Bs/Desktop/PFE2-ING/SmartHomeDashboardNew-master/build/Desktop_Qt_6_6_1_MinGW_64_bit-Debug/.rcc/qmlcache/appSmartDashboard_qmlcache_loader.cpp	e79622b05bb25cef
+92	373	7648569286955764	appSmartDashboard_autogen/timestamp	edda87211098f1c0
+92	373	7648569286955764	C:/Users/Mayssa Bs/Desktop/PFE2-ING/SmartHomeDashboardNew-master/build/Desktop_Qt_6_6_1_MinGW_64_bit-Debug/appSmartDashboard_autogen/timestamp	edda87211098f1c0
+92	373	7648569286955764	C:/Users/Mayssa Bs/Desktop/PFE2-ING/SmartHomeDashboardNew-master/build/Desktop_Qt_6_6_1_MinGW_64_bit-Debug/appSmartDashboard_autogen/mocs_compilation.cpp	edda87211098f1c0
+1401	1642	7647017605655979	appsmartdashboard_qmltyperegistrations.cpp	c15a7a9850b35493
+375	442	7648569290405674	meta_types/appSmartDashboard_json_file_list.txt	16915dd254ec805d
+375	442	7648569290405674	meta_types/appSmartDashboard_json_file_list.txt.timestamp	16915dd254ec805d
+2164	6394	7648523013771564	CMakeFiles/appSmartDashboard.dir/appSmartDashboard_autogen/mocs_compilation.cpp.obj	4abd56e1a96d22fb
+375	442	7648569290405674	C:/Users/Mayssa Bs/Desktop/PFE2-ING/SmartHomeDashboardNew-master/build/Desktop_Qt_6_6_1_MinGW_64_bit-Debug/meta_types/appSmartDashboard_json_file_list.txt	16915dd254ec805d
+375	442	7648569290405674	C:/Users/Mayssa Bs/Desktop/PFE2-ING/SmartHomeDashboardNew-master/build/Desktop_Qt_6_6_1_MinGW_64_bit-Debug/meta_types/appSmartDashboard_json_file_list.txt.timestamp	16915dd254ec805d
+442	527	7648569290565890	meta_types/qt6appsmartdashboard_debug_metatypes.json.gen	f19282f0d368580
+442	527	7648569290565890	meta_types/qt6appsmartdashboard_debug_metatypes.json	f19282f0d368580
+1401	1642	7647017605655979	SmartDashboard/appSmartDashboard.qmltypes	c15a7a9850b35493
+2525	3161	7647017620867370	C:/Users/Mayssa Bs/Desktop/PFE2-ING/SmartHomeDashboardNew-master/build/Desktop_Qt_6_6_1_MinGW_64_bit-Debug/.rcc/qmlcache/appSmartDashboard_qml/components/Switch_qml.cpp	9a838f267318638
+1401	1642	7647017605655979	C:/Users/Mayssa Bs/Desktop/PFE2-ING/SmartHomeDashboardNew-master/build/Desktop_Qt_6_6_1_MinGW_64_bit-Debug/SmartDashboard/appSmartDashboard.qmltypes	c15a7a9850b35493
+1651	2669	7647017615600719	.rcc/qmlcache/appSmartDashboard_qml/components/IconLabel_qml.cpp	c4bf5ee3d05666fa
+3180	10637	7647017622078293	CMakeFiles/appSmartDashboard.dir/21baf111e94ea8d4b23e31b41528cbff/.rcc/qmlcache/appSmartDashboard_qml/components/IconLabel_qml.cpp.obj	1026f2323784614c
+2525	3161	7647017620867370	.rcc/qmlcache/appSmartDashboard_qml/components/Switch_qml.cpp	9a838f267318638
+378	772	7648582923276766	.rcc/qmlcache/appSmartDashboard_qml/Main_qml.cpp	51b6b2b0f990108c
+1651	2669	7647017615600719	C:/Users/Mayssa Bs/Desktop/PFE2-ING/SmartHomeDashboardNew-master/build/Desktop_Qt_6_6_1_MinGW_64_bit-Debug/.rcc/qmlcache/appSmartDashboard_qml/components/IconLabel_qml.cpp	c4bf5ee3d05666fa
+339	627	7648579663758026	.rcc/qmlcache/appSmartDashboard_qml/components/LeftPane_qml.cpp	97b9acf281f533a
+339	627	7648579663758026	C:/Users/Mayssa Bs/Desktop/PFE2-ING/SmartHomeDashboardNew-master/build/Desktop_Qt_6_6_1_MinGW_64_bit-Debug/.rcc/qmlcache/appSmartDashboard_qml/components/LeftPane_qml.cpp	97b9acf281f533a
+324	594	7648585094528942	C:/Users/Mayssa Bs/Desktop/PFE2-ING/SmartHomeDashboardNew-master/build/Desktop_Qt_6_6_1_MinGW_64_bit-Debug/.rcc/qmlcache/appSmartDashboard_qml/components/RightPane_qml.cpp	bda10efb426b7bc3
+348	628	7648579663914274	.rcc/qmlcache/appSmartDashboard_qml/components/MiddlePane_qml.cpp	1d9672bed7adb46
+348	628	7648579663914274	C:/Users/Mayssa Bs/Desktop/PFE2-ING/SmartHomeDashboardNew-master/build/Desktop_Qt_6_6_1_MinGW_64_bit-Debug/.rcc/qmlcache/appSmartDashboard_qml/components/MiddlePane_qml.cpp	1d9672bed7adb46
+1707	2525	7647017614445357	C:/Users/Mayssa Bs/Desktop/PFE2-ING/SmartHomeDashboardNew-master/build/Desktop_Qt_6_6_1_MinGW_64_bit-Debug/.rcc/qmlcache/appSmartDashboard_qml/components/MiddlePaneWidget_qml.cpp	bded7bf1d3b587bf
+2540	3149	7647017620507327	.rcc/qmlcache/appSmartDashboard_qml/components/Progressbar_qml.cpp	f23473c61db0ac9a
+2540	3149	7647017620507327	C:/Users/Mayssa Bs/Desktop/PFE2-ING/SmartHomeDashboardNew-master/build/Desktop_Qt_6_6_1_MinGW_64_bit-Debug/.rcc/qmlcache/appSmartDashboard_qml/components/Progressbar_qml.cpp	f23473c61db0ac9a
+399	772	7648582923433052	.rcc/qmlcache/appSmartDashboard_qml/components/RightPaneLightSwitchComponent_qml.cpp	32f66e277a657db4
+399	772	7648582923433052	C:/Users/Mayssa Bs/Desktop/PFE2-ING/SmartHomeDashboardNew-master/build/Desktop_Qt_6_6_1_MinGW_64_bit-Debug/.rcc/qmlcache/appSmartDashboard_qml/components/RightPaneLightSwitchComponent_qml.cpp	32f66e277a657db4
+2584	3155	7647017620817335	.rcc/qmlcache/appSmartDashboard_qml/components/CircularProgressBar_qml.cpp	1a8d739a63c02037
+2584	3155	7647017620817335	C:/Users/Mayssa Bs/Desktop/PFE2-ING/SmartHomeDashboardNew-master/build/Desktop_Qt_6_6_1_MinGW_64_bit-Debug/.rcc/qmlcache/appSmartDashboard_qml/components/CircularProgressBar_qml.cpp	1a8d739a63c02037
+2607	2854	7647013174697004	CMakeFiles/appSmartDashboard.dir/build/Desktop_Qt_6_6_1_MinGW_64_bit-Debug/.rcc/qrc_qmake_SmartDashboard.cpp.obj	337ab194836adcee
+3169	10936	7647017621963051	CMakeFiles/appSmartDashboard.dir/appsmartdashboard_qmltyperegistrations.cpp.obj	41b459dd5abe6435
+1128	5356	7648579669248714	CMakeFiles/appSmartDashboard.dir/21baf111e94ea8d4b23e31b41528cbff/.rcc/qmlcache/appSmartDashboard_qml/components/LeftPane_qml.cpp.obj	69fa5e45f9b08d59
+1257	5757	7648582928770729	CMakeFiles/appSmartDashboard.dir/build/Desktop_Qt_6_6_1_MinGW_64_bit-Debug/.rcc/qmlcache/appSmartDashboard_qml/Main_qml.cpp.obj	71a7130935b02adf
+527	3806	7648569291347274	CMakeFiles/appSmartDashboard.dir/cpp/main.cpp.obj	79fa91f01e94e8
+2619	11345	7647013174817049	CMakeFiles/appSmartDashboard.dir/build/Desktop_Qt_6_6_1_MinGW_64_bit-Debug/.rcc/qmlcache/appSmartDashboard_qmlcache_loader.cpp.obj	59243487161c1635
+1133	4982	7648579669303919	CMakeFiles/appSmartDashboard.dir/21baf111e94ea8d4b23e31b41528cbff/.rcc/qmlcache/appSmartDashboard_qml/components/MiddlePane_qml.cpp.obj	f701df37343a5c97
+10760	18705	7647017697739512	CMakeFiles/appSmartDashboard.dir/build/Desktop_Qt_6_6_1_MinGW_64_bit-Debug/.rcc/qmlcache/appSmartDashboard_qml/components/Switch_qml.cpp.obj	afa07fce261006c9
+10937	18704	7647017699622896	CMakeFiles/appSmartDashboard.dir/21baf111e94ea8d4b23e31b41528cbff/.rcc/qmlcache/appSmartDashboard_qml/components/Progressbar_qml.cpp.obj	f5e93849b9541424
+10685	18754	7647017697110321	CMakeFiles/appSmartDashboard.dir/21baf111e94ea8d4b23e31b41528cbff/.rcc/qmlcache/appSmartDashboard_qml/components/MiddlePaneWidget_qml.cpp.obj	72461257db52150f
+1071	4772	7648585099549358	CMakeFiles/appSmartDashboard.dir/21baf111e94ea8d4b23e31b41528cbff/.rcc/qmlcache/appSmartDashboard_qml/components/RightPane_qml.cpp.obj	8aa2e2fbc230e3aa
+11586	19459	7647017706054427	CMakeFiles/appSmartDashboard.dir/cc9ad88ed8b2898df24c9b7a899d2118/qmlcache/appSmartDashboard_qml/components/CircularProgressBar_qml.cpp.obj	a45c0dd60622972a
+1076	6145	7648585099549358	CMakeFiles/appSmartDashboard.dir/build/Desktop_Qt_6_6_1_MinGW_64_bit-Debug/.rcc/qrc_appSmartDashboard_raw_qml_0.cpp.obj	c919ac342e30c9ba
+6145	7243	7648585150223045	appSmartDashboard.exe	84569b31a6e87102
+51	2066	7647017587297715	build.ninja	ca5fdc24b02348ff
+2613	11277	7647013174756957	CMakeFiles/appSmartDashboard.dir/cpp/qmlmqttclient.cpp.obj	d23942a30f374c2f
+59	116	7648585830689544	SmartDashboard/qml/components/RightPane.qml	f3f62540285ed0aa
+59	116	7648585830689544	C:/Users/Mayssa Bs/Desktop/PFE2-ING/SmartHomeDashboardNew-master/build/Desktop_Qt_6_6_1_MinGW_64_bit-Debug/SmartDashboard/qml/components/RightPane.qml	f3f62540285ed0aa
+70	407	7648585833514623	.qt_plugins/Qt6_QmlPlugins_Imports_appSmartDashboard.cmake	d288fd2a3157cfab
+70	407	7648585833514623	C:/Users/Mayssa Bs/Desktop/PFE2-ING/SmartHomeDashboardNew-master/build/Desktop_Qt_6_6_1_MinGW_64_bit-Debug/.qt_plugins/Qt6_QmlPlugins_Imports_appSmartDashboard.cmake	d288fd2a3157cfab
+407	663	7648585836027076	.rcc/qmlcache/appSmartDashboard_qml/components/RightPane_qml.cpp	bda10efb426b7bc3
+407	663	7648585836027076	C:/Users/Mayssa Bs/Desktop/PFE2-ING/SmartHomeDashboardNew-master/build/Desktop_Qt_6_6_1_MinGW_64_bit-Debug/.rcc/qmlcache/appSmartDashboard_qml/components/RightPane_qml.cpp	bda10efb426b7bc3
+421	1231	7648585841834374	.rcc/qrc_appSmartDashboard_raw_qml_0.cpp	fc2dc4c1996552c6
+421	1231	7648585841834374	C:/Users/Mayssa Bs/Desktop/PFE2-ING/SmartHomeDashboardNew-master/build/Desktop_Qt_6_6_1_MinGW_64_bit-Debug/.rcc/qrc_appSmartDashboard_raw_qml_0.cpp	fc2dc4c1996552c6
+1231	6353	7648585841989489	CMakeFiles/appSmartDashboard.dir/21baf111e94ea8d4b23e31b41528cbff/.rcc/qmlcache/appSmartDashboard_qml/components/RightPane_qml.cpp.obj	8aa2e2fbc230e3aa
+1238	7819	7648585841989489	CMakeFiles/appSmartDashboard.dir/build/Desktop_Qt_6_6_1_MinGW_64_bit-Debug/.rcc/qrc_appSmartDashboard_raw_qml_0.cpp.obj	c919ac342e30c9ba
+7819	9131	7648585907885972	appSmartDashboard.exe	84569b31a6e87102

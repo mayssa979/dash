@@ -1,0 +1,21 @@
+<RCC>
+  <qresource prefix="/SmartDashboard/">
+    <file alias="qml/Main.qml">/home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/qml/Main.qml</file>
+    <file alias="qml/components/IconLabel.qml">/home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/qml/components/IconLabel.qml</file>
+    <file alias="qml/components/LeftPane.qml">/home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/qml/components/LeftPane.qml</file>
+    <file alias="qml/components/MiddlePane.qml">/home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/qml/components/MiddlePane.qml</file>
+    <file alias="qml/components/RightPane.qml">/home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/qml/components/RightPane.qml</file>
+    <file alias="qml/components/MiddlePaneWidget.qml">/home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/qml/components/MiddlePaneWidget.qml</file>
+    <file alias="qml/components/Switch.qml">/home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/qml/components/Switch.qml</file>
+    <file alias="qml/components/Progressbar.qml">/home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/qml/components/Progressbar.qml</file>
+    <file alias="qml/components/RightPaneLightSwitchComponent.qml">/home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/qml/components/RightPaneLightSwitchComponent.qml</file>
+    <file alias="qml/components/CircularProgressBar.qml">/home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/qml/components/CircularProgressBar.qml</file>
+    <file alias="qml/components/Maps.qml">/home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/qml/components/Maps.qml</file>
+    <file alias="qml/components/Edev.qml">/home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/qml/components/Edev.qml</file>
+    <file alias="qml/components/Device.qml">/home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/qml/components/Device.qml</file>
+    <file alias="assets/fonts/CodecPro-Italic.ttf">/home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/assets/fonts/CodecPro-Italic.ttf</file>
+    <file alias="assets/fonts/CodecPro-Regular.ttf">/home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/assets/fonts/CodecPro-Regular.ttf</file>
+    <file alias="assets/fonts/fontawesome.otf">/home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/assets/fonts/fontawesome.otf</file>
+  </qresource>
+</RCC>
+

@@ -1,0 +1,10 @@
+/SmartDashboard/qml/Main.qml
+/SmartDashboard/qml/components/IconLabel.qml
+/SmartDashboard/qml/components/LeftPane.qml
+/SmartDashboard/qml/components/MiddlePane.qml
+/SmartDashboard/qml/components/RightPane.qml
+/SmartDashboard/qml/components/MiddlePaneWidget.qml
+/SmartDashboard/qml/components/Switch.qml
+/SmartDashboard/qml/components/Progressbar.qml
+/SmartDashboard/qml/components/RightPaneLightSwitchComponent.qml
+/SmartDashboard/qml/components/CircularProgressBar.qml
