@@ -34,8 +34,9 @@ qt_add_qml_module(appSmartDashboard
         qml/components/CircularProgressBar.qml
         qml/components/Maps.qml
         qml/components/Edev.qml
+        qml/components/Device.qml
+        qml/messages/MessageStore.qml
         SOURCES cpp/qmlmqttclient.h
-        QML_FILES qml/components/Device.qml
 
 
 )

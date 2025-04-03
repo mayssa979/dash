@@ -1,7 +1,7 @@
 import QtQuick
 import QtQuick.Controls
 import QtQuick.Layouts
-
+import com.example.messages 1.0
 Item {
     id: edev
     width: 500
@@ -15,7 +15,7 @@ Item {
         border.width: 2
         radius: 10
 
-
+        property alias deviceName: name.text
         ColumnLayout {
             anchors.fill: parent
             spacing: 10
@@ -24,6 +24,7 @@ Item {
             RowLayout {
                 Layout.fillWidth: true
                 spacing: 10
+
                 Button {
                      Layout.alignment: Qt.AlignLeft
                      id: backButton
@@ -36,6 +37,7 @@ Item {
                      }
                  }
                 Text {
+                    id:name
                     text: "Device 1-1"
                     color: "white"
                     font.bold: true

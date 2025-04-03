@@ -11,3 +11,4 @@
 /SmartDashboard/qml/components/Maps.qml
 /SmartDashboard/qml/components/Edev.qml
 /SmartDashboard/qml/components/Device.qml
+/SmartDashboard/qml/messages/MessageStore.qml

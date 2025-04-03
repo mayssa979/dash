@@ -3,10 +3,14 @@ import QtQuick.Layouts
 import QtQuick.Window
 import QtQuick.Controls as QQC2
 import QtMqtt
+import com.example.messages 1.0
+
+
 
 
 Item {
     id: rightItem
+    signal payloadReceived(string payload)
     width: 300
     height: parent.height
     anchors.left: leftItem.right
@@ -27,16 +31,16 @@ Item {
     {
 
         try {
+
+
             messageModel.insert(0, {"payload" : payload})
-            if (messageModel.count >= 10000)
+            if (messageModel.count >= 10000){
                 messageModel.remove(99)
+            }
+            console.log("Before updating MessageStore:", payload);
+
             const jsonObj = JSON.parse(payload)
             console.log("new gateway ", JSON.stringify(jsonObj.gtw.id))
-            /*if(jsonObj.hasOwnProperty("gtw")){
-                gtwId = jsonObj.gtw.id
-                console.log("new gateway ", gtwId)
-            }*/
-
         }catch(e) {
             console.log("JSON parse error! ", e)
         }
@@ -212,19 +216,15 @@ Item {
                             wrapMode: Text.Wrap
                             font.pixelSize: 14
                         }
-                       /* MouseArea {
-                            anchors.fill: delegatedRectangle
-                            cursorShape: Qt.PointingHandCursor
-                            onClicked: {
-                               pageLoader.source = "components/Maps.qml"
-                            }
-                        }*/
                         MouseArea {
                             anchors.fill: delegatedRectangle
                             cursorShape: Qt.PointingHandCursor
                             onClicked: {
-                               pageLoader.source = "components/Device.qml"
-                                RightPane.visible= false
+                                pageLoader.source = ""
+                                pageLoader.source = "components/Device.qml"
+                                MessageStore.message = textItem.text;
+                                console.log("After updating MessageStore:", MessageStore.message);
+
                             }
                         }
                     }

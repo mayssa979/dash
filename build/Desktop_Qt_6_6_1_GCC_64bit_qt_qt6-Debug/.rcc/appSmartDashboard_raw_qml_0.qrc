@@ -13,6 +13,7 @@
     <file alias="qml/components/Maps.qml">/home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/qml/components/Maps.qml</file>
     <file alias="qml/components/Edev.qml">/home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/qml/components/Edev.qml</file>
     <file alias="qml/components/Device.qml">/home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/qml/components/Device.qml</file>
+    <file alias="qml/messages/MessageStore.qml">/home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/qml/messages/MessageStore.qml</file>
     <file alias="assets/fonts/CodecPro-Italic.ttf">/home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/assets/fonts/CodecPro-Italic.ttf</file>
     <file alias="assets/fonts/CodecPro-Regular.ttf">/home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/assets/fonts/CodecPro-Regular.ttf</file>
     <file alias="assets/fonts/fontawesome.otf">/home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/assets/fonts/fontawesome.otf</file>

@@ -15,6 +15,7 @@ file(REMOVE_RECURSE
   "SmartDashboard/qml/components/RightPane.qml"
   "SmartDashboard/qml/components/RightPaneLightSwitchComponent.qml"
   "SmartDashboard/qml/components/Switch.qml"
+  "SmartDashboard/qml/messages/MessageStore.qml"
 )
 
 # Per-language clean rules from dependency scanning.

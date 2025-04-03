@@ -121,6 +121,13 @@ Window {
     Loader {
         id: pageLoader
         anchors.fill: parent
+        visible: source !== ""
+
+        onLoaded: {
+            if(item && item.hasOwnProperty("resetScroll")) {
+                item.resetScroll()
+            }
+        }
     }
 
     function commafy(value) {

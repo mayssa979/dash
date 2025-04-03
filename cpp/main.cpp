@@ -16,6 +16,9 @@ int main(int argc, char *argv[])
     QFont font("Codec Pro");
     QGuiApplication::setFont(font);
     qmlRegisterType<QmlMqttClient>("QtMqtt", 2, 0, "MqttClient");
+
+    qmlRegisterSingletonType(QUrl("qrc:/SmartDashboard/qml/messages/MessageStore.qml"), "com.example.messages", 1, 0, "MessageStore");
+
     QQmlApplicationEngine engine;
     const QUrl url(u"qrc:/SmartDashboard/qml/Main.qml"_qs);
     QObject::connect(
