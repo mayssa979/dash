@@ -15,4 +15,5 @@ Maps 1.0 qml/components/Maps.qml
 Edev 1.0 qml/components/Edev.qml
 Device 1.0 qml/components/Device.qml
 MessageStore 1.0 qml/messages/MessageStore.qml
+Gateways 1.0 qml/components/Gateways.qml
 

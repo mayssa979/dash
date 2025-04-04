@@ -122,25 +122,35 @@ SmartDashboard/qml/messages/MessageStore.qml: /home/maybensa@actia.local/Bureau/
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/build/Desktop_Qt_6_6_1_GCC_64bit_qt_qt6-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Copying qml/messages/MessageStore.qml to /home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/build/Desktop_Qt_6_6_1_GCC_64bit_qt_qt6-Debug/SmartDashboard/qml/messages/MessageStore.qml"
 	cd /home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main && /home/Qt/Tools/CMake/bin/cmake -E copy /home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/qml/messages/MessageStore.qml /home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/build/Desktop_Qt_6_6_1_GCC_64bit_qt_qt6-Debug/SmartDashboard/qml/messages/MessageStore.qml
 
+SmartDashboard/qml/components/Gateways.qml: /home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/qml/components/Gateways.qml
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/build/Desktop_Qt_6_6_1_GCC_64bit_qt_qt6-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Copying qml/components/Gateways.qml to /home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/build/Desktop_Qt_6_6_1_GCC_64bit_qt_qt6-Debug/SmartDashboard/qml/components/Gateways.qml"
+	cd /home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main && /home/Qt/Tools/CMake/bin/cmake -E copy /home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/qml/components/Gateways.qml /home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/build/Desktop_Qt_6_6_1_GCC_64bit_qt_qt6-Debug/SmartDashboard/qml/components/Gateways.qml
+
 SmartDashboard/assets/fonts/CodecPro-Italic.ttf: /home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/assets/fonts/CodecPro-Italic.ttf
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/build/Desktop_Qt_6_6_1_GCC_64bit_qt_qt6-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Copying assets/fonts/CodecPro-Italic.ttf to /home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/build/Desktop_Qt_6_6_1_GCC_64bit_qt_qt6-Debug/SmartDashboard/assets/fonts/CodecPro-Italic.ttf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/build/Desktop_Qt_6_6_1_GCC_64bit_qt_qt6-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Copying assets/fonts/CodecPro-Italic.ttf to /home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/build/Desktop_Qt_6_6_1_GCC_64bit_qt_qt6-Debug/SmartDashboard/assets/fonts/CodecPro-Italic.ttf"
 	cd /home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main && /home/Qt/Tools/CMake/bin/cmake -E copy /home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/assets/fonts/CodecPro-Italic.ttf /home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/build/Desktop_Qt_6_6_1_GCC_64bit_qt_qt6-Debug/SmartDashboard/assets/fonts/CodecPro-Italic.ttf
 
 SmartDashboard/assets/fonts/CodecPro-Regular.ttf: /home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/assets/fonts/CodecPro-Regular.ttf
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/build/Desktop_Qt_6_6_1_GCC_64bit_qt_qt6-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Copying assets/fonts/CodecPro-Regular.ttf to /home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/build/Desktop_Qt_6_6_1_GCC_64bit_qt_qt6-Debug/SmartDashboard/assets/fonts/CodecPro-Regular.ttf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/build/Desktop_Qt_6_6_1_GCC_64bit_qt_qt6-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Copying assets/fonts/CodecPro-Regular.ttf to /home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/build/Desktop_Qt_6_6_1_GCC_64bit_qt_qt6-Debug/SmartDashboard/assets/fonts/CodecPro-Regular.ttf"
 	cd /home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main && /home/Qt/Tools/CMake/bin/cmake -E copy /home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/assets/fonts/CodecPro-Regular.ttf /home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/build/Desktop_Qt_6_6_1_GCC_64bit_qt_qt6-Debug/SmartDashboard/assets/fonts/CodecPro-Regular.ttf
 
 SmartDashboard/assets/fonts/fontawesome.otf: /home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/assets/fonts/fontawesome.otf
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/build/Desktop_Qt_6_6_1_GCC_64bit_qt_qt6-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Copying assets/fonts/fontawesome.otf to /home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/build/Desktop_Qt_6_6_1_GCC_64bit_qt_qt6-Debug/SmartDashboard/assets/fonts/fontawesome.otf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/build/Desktop_Qt_6_6_1_GCC_64bit_qt_qt6-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Copying assets/fonts/fontawesome.otf to /home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/build/Desktop_Qt_6_6_1_GCC_64bit_qt_qt6-Debug/SmartDashboard/assets/fonts/fontawesome.otf"
 	cd /home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main && /home/Qt/Tools/CMake/bin/cmake -E copy /home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/assets/fonts/fontawesome.otf /home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/build/Desktop_Qt_6_6_1_GCC_64bit_qt_qt6-Debug/SmartDashboard/assets/fonts/fontawesome.otf
+
+SmartDashboard/assets/images/location.png: /home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/assets/images/location.png
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/build/Desktop_Qt_6_6_1_GCC_64bit_qt_qt6-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Copying assets/images/location.png to /home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/build/Desktop_Qt_6_6_1_GCC_64bit_qt_qt6-Debug/SmartDashboard/assets/images/location.png"
+	cd /home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main && /home/Qt/Tools/CMake/bin/cmake -E copy /home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/assets/images/location.png /home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/build/Desktop_Qt_6_6_1_GCC_64bit_qt_qt6-Debug/SmartDashboard/assets/images/location.png
 
 appSmartDashboard_tooling: SmartDashboard/assets/fonts/CodecPro-Italic.ttf
 appSmartDashboard_tooling: SmartDashboard/assets/fonts/CodecPro-Regular.ttf
 appSmartDashboard_tooling: SmartDashboard/assets/fonts/fontawesome.otf
+appSmartDashboard_tooling: SmartDashboard/assets/images/location.png
 appSmartDashboard_tooling: SmartDashboard/qml/Main.qml
 appSmartDashboard_tooling: SmartDashboard/qml/components/CircularProgressBar.qml
 appSmartDashboard_tooling: SmartDashboard/qml/components/Device.qml
 appSmartDashboard_tooling: SmartDashboard/qml/components/Edev.qml
+appSmartDashboard_tooling: SmartDashboard/qml/components/Gateways.qml
 appSmartDashboard_tooling: SmartDashboard/qml/components/IconLabel.qml
 appSmartDashboard_tooling: SmartDashboard/qml/components/LeftPane.qml
 appSmartDashboard_tooling: SmartDashboard/qml/components/Maps.qml

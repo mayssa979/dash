@@ -6,7 +6,8 @@ Item {
     id: edev
     width: 500
     height: 400
-
+    property alias deviceName: name.text
+    property alias hum: hum.text
     Rectangle {
 
         anchors.fill: parent
@@ -15,7 +16,7 @@ Item {
         border.width: 2
         radius: 10
 
-        property alias deviceName: name.text
+
         ColumnLayout {
             anchors.fill: parent
             spacing: 10
@@ -92,7 +93,8 @@ Item {
                             color: "white"
                             }
                         Text {
-                            text: "45 %"
+                            id: hum
+                            text: "%"
                             anchors.margins: 5
                             color: "white"
                             font.bold: true

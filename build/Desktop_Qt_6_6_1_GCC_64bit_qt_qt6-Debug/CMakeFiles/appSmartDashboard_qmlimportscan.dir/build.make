@@ -85,6 +85,7 @@ CMakeFiles/appSmartDashboard_qmlimportscan: .qt_plugins/Qt6_QmlPlugins_Imports_a
 .qt_plugins/Qt6_QmlPlugins_Imports_appSmartDashboard.cmake: /home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/qml/components/Edev.qml
 .qt_plugins/Qt6_QmlPlugins_Imports_appSmartDashboard.cmake: /home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/qml/components/Device.qml
 .qt_plugins/Qt6_QmlPlugins_Imports_appSmartDashboard.cmake: /home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/qml/messages/MessageStore.qml
+.qt_plugins/Qt6_QmlPlugins_Imports_appSmartDashboard.cmake: /home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/qml/components/Gateways.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/build/Desktop_Qt_6_6_1_GCC_64bit_qt_qt6-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running qmlimportscanner for appSmartDashboard"
 	cd /home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main && /home/Qt/6.6.1/gcc_64/libexec/qmlimportscanner @/home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/build/Desktop_Qt_6_6_1_GCC_64bit_qt_qt6-Debug/.qt_plugins/Qt6_QmlPlugins_Imports_appSmartDashboard.rsp
 

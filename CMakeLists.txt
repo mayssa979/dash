@@ -21,6 +21,7 @@ qt_add_qml_module(appSmartDashboard
         assets/fonts/CodecPro-Italic.ttf
         assets/fonts/CodecPro-Regular.ttf
         assets/fonts/fontawesome.otf
+        assets/images/location.png
     QML_FILES
         qml/Main.qml
         qml/components/IconLabel.qml
@@ -37,6 +38,8 @@ qt_add_qml_module(appSmartDashboard
         qml/components/Device.qml
         qml/messages/MessageStore.qml
         SOURCES cpp/qmlmqttclient.h
+        QML_FILES
+        QML_FILES qml/components/Gateways.qml
 
 
 )

@@ -6,8 +6,31 @@ Item {
     width: 100
     height: 100
 
+    function parseMessage()
+    {
+        try {
+            var jsonObj = JSON.parse(MessageStore.message)
+            console.log("new gateway ", JSON.stringify(jsonObj.edev.id))
+            return jsonObj.edev.id
+        }catch(e) {
+            console.log("JSON parse error! ", e)
+        }
 
 
+    }
+
+    function parseHum()
+    {
+        try {
+            var jsonObj = JSON.parse(MessageStore.message)
+            console.log("new gateway ", JSON.stringify(jsonObj.edev.humidity))
+            return jsonObj.edev.humidity
+        }catch(e) {
+            console.log("JSON parse error! ", e)
+        }
+
+
+    }
             Rectangle {
                 anchors.fill: parent
                 color: "black"
@@ -31,11 +54,12 @@ Item {
                     ColumnLayout {
                         id: columnLayout
                         width: parent.width
+
                         ColumnLayout {
-                            Text {
+                            /*Text {
                                 text: MessageStore.message
                                 color: "white"
-                            }
+                            }*/
 
                             Button {
                                 Layout.alignment: Qt.AlignHCenter
@@ -48,13 +72,13 @@ Item {
                                     pageLoader.source = "components/RightPane"
                                 }
                             }
+
                             RowLayout {
                                 Edev { id: edev
+                                        deviceName: "Device-" + JSON.stringify(parseMessage())
+                                        hum: JSON.stringify(parseHum()) + " %"
+                                }
 
-                                }
-                                Component.onCompleted: {
-                                    edev.deviceName = MessageStore.message
-                                }
 
                                 Edev { id: edev1}
                             }

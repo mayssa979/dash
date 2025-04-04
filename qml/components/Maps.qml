@@ -8,6 +8,10 @@ Item {
     Plugin {
         id: mapPlugin
         name: "osm"
+        parameters: [
+            PluginParameter {name: "osm.mapping.providersrepository.disabled"; value: "true" },
+            PluginParameter {name: "osm.mapping.host"; value: "https://a.tile.openstreetmap.org/"}
+        ]
     }
 
 
@@ -16,8 +20,22 @@ Item {
         anchors.fill: parent
         plugin: mapPlugin
         center: QtPositioning.coordinate(36.8065, 10.1815)
-        zoomLevel: 14
+        zoomLevel: 20
+        property alias osmPlugin: mapPlugin
         property geoCoordinate startCentroid
+        MapQuickItem {
+            id: locationMarker
+            anchorPoint.x: markerImage.width /2
+            anchorPoint.y: markerImage.height
+            coordinate: QtPositioning.coordinate(36.8065, 10.1815)
+            sourceItem: Image {
+                id: markerImage
+                source: "qrc:/SmartDashboard/assets/images/location.png"
+                width: 32
+                height: 32
+            }
+        }
+
         QQC2.Button {
             Layout.alignment: Qt.AlignLeft
             id: backButton

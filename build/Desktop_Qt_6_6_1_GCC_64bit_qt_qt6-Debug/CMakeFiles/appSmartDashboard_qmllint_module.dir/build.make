@@ -81,6 +81,7 @@ CMakeFiles/appSmartDashboard_qmllint_module: /home/maybensa@actia.local/Bureau/p
 CMakeFiles/appSmartDashboard_qmllint_module: /home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/qml/components/Edev.qml
 CMakeFiles/appSmartDashboard_qmllint_module: /home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/qml/components/Device.qml
 CMakeFiles/appSmartDashboard_qmllint_module: /home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/qml/messages/MessageStore.qml
+CMakeFiles/appSmartDashboard_qmllint_module: /home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/qml/components/Gateways.qml
 	cd /home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main && /home/Qt/6.6.1/gcc_64/bin/qmllint -I /home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/build/Desktop_Qt_6_6_1_GCC_64bit_qt_qt6-Debug -I /home/Qt/6.6.1/gcc_64/./qml --resource /home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/build/Desktop_Qt_6_6_1_GCC_64bit_qt_qt6-Debug/.rcc/qmake_SmartDashboard.qrc --resource /home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/build/Desktop_Qt_6_6_1_GCC_64bit_qt_qt6-Debug/.rcc/appSmartDashboard_raw_qml_0.qrc --module SmartDashboard
 
 appSmartDashboard_qmllint_module: CMakeFiles/appSmartDashboard_qmllint_module
