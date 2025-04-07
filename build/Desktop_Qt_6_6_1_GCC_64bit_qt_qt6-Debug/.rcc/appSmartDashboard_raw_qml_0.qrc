@@ -14,11 +14,21 @@
     <file alias="qml/components/Edev.qml">/home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/qml/components/Edev.qml</file>
     <file alias="qml/components/Device.qml">/home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/qml/components/Device.qml</file>
     <file alias="qml/messages/MessageStore.qml">/home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/qml/messages/MessageStore.qml</file>
+    <file alias="qml/components/Sidebar.qml">/home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/qml/components/Sidebar.qml</file>
     <file alias="qml/components/Gateways.qml">/home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/qml/components/Gateways.qml</file>
     <file alias="assets/fonts/CodecPro-Italic.ttf">/home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/assets/fonts/CodecPro-Italic.ttf</file>
     <file alias="assets/fonts/CodecPro-Regular.ttf">/home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/assets/fonts/CodecPro-Regular.ttf</file>
     <file alias="assets/fonts/fontawesome.otf">/home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/assets/fonts/fontawesome.otf</file>
     <file alias="assets/images/location.png">/home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/assets/images/location.png</file>
+    <file alias="assets/icons/Bookmarks.svg">/home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/assets/icons/Bookmarks.svg</file>
+    <file alias="assets/icons/Explore.svg">/home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/assets/icons/Explore.svg</file>
+    <file alias="assets/icons/Location.svg">/home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/assets/icons/Location.svg</file>
+    <file alias="assets/icons/Menu.svg">/home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/assets/icons/Menu.svg</file>
+    <file alias="assets/icons/Messages.svg">/home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/assets/icons/Messages.svg</file>
+    <file alias="assets/icons/Notifications.svg">/home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/assets/icons/Notifications.svg</file>
+    <file alias="assets/icons/Profile.svg">/home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/assets/icons/Profile.svg</file>
+    <file alias="assets/icons/Fetch.svg">/home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/assets/icons/Fetch.svg</file>
+    <file alias="assets/icons/Setting.svg">/home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/assets/icons/Setting.svg</file>
   </qresource>
 </RCC>
 

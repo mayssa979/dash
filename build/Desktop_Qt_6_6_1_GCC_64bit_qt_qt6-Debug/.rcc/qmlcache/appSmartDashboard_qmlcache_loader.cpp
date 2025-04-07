@@ -103,6 +103,13 @@ namespace _0x5f_SmartDashboard_qml_messages_MessageStore_qml {
         reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
     };
 }
+namespace _0x5f_SmartDashboard_qml_components_Sidebar_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
 namespace _0x5f_SmartDashboard_qml_components_Gateways_qml { 
     extern const unsigned char qmlData[];
     extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
@@ -138,6 +145,7 @@ Registry::Registry() {
     resourcePathToCachedUnit.insert(QStringLiteral("/SmartDashboard/qml/components/Edev.qml"), &QmlCacheGeneratedCode::_0x5f_SmartDashboard_qml_components_Edev_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/SmartDashboard/qml/components/Device.qml"), &QmlCacheGeneratedCode::_0x5f_SmartDashboard_qml_components_Device_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/SmartDashboard/qml/messages/MessageStore.qml"), &QmlCacheGeneratedCode::_0x5f_SmartDashboard_qml_messages_MessageStore_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/SmartDashboard/qml/components/Sidebar.qml"), &QmlCacheGeneratedCode::_0x5f_SmartDashboard_qml_components_Sidebar_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/SmartDashboard/qml/components/Gateways.qml"), &QmlCacheGeneratedCode::_0x5f_SmartDashboard_qml_components_Gateways_qml::unit);
     QQmlPrivate::RegisterQmlUnitCacheHook registration;
     registration.structVersion = 0;

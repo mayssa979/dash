@@ -22,6 +22,15 @@ qt_add_qml_module(appSmartDashboard
         assets/fonts/CodecPro-Regular.ttf
         assets/fonts/fontawesome.otf
         assets/images/location.png
+        assets/icons/Bookmarks.svg
+        assets/icons/Explore.svg
+        assets/icons/Location.svg
+        assets/icons/Menu.svg
+        assets/icons/Messages.svg
+        assets/icons/Notifications.svg
+        assets/icons/Profile.svg
+        assets/icons/Fetch.svg
+        assets/icons/Setting.svg
     QML_FILES
         qml/Main.qml
         qml/components/IconLabel.qml
@@ -37,9 +46,10 @@ qt_add_qml_module(appSmartDashboard
         qml/components/Edev.qml
         qml/components/Device.qml
         qml/messages/MessageStore.qml
+        qml/components/Sidebar.qml
+        qml/components/Gateways.qml
         SOURCES cpp/qmlmqttclient.h
-        QML_FILES
-        QML_FILES qml/components/Gateways.qml
+
 
 
 )

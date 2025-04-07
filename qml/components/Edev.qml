@@ -26,7 +26,7 @@ Item {
                 Layout.fillWidth: true
                 spacing: 10
 
-                Button {
+               /* Button {
                      Layout.alignment: Qt.AlignLeft
                      id: backButton
                      Layout.columnSpan: 2
@@ -36,7 +36,7 @@ Item {
                      onClicked: {
                          pageLoader.source = "components/Maps.qml"
                      }
-                 }
+                 }*/
                 Text {
                     id:name
                     text: "Device 1-1"

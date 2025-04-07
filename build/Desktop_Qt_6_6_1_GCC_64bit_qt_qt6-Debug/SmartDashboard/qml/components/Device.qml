@@ -89,6 +89,7 @@ Item {
                                 }
                             }
 
+
                             Button {
                                 Layout.alignment: Qt.AlignHCenter
                                 id: backButton
@@ -100,8 +101,10 @@ Item {
                                     pageLoader.source = "components/RightPane"
                                 }
                             }
+                            Sidebar {}
+
                             RowLayout {
-                                anchors.right: parent.right
+                                Layout.alignment: Qt.AlignRight
                                 Edev { id: edev
                                     deviceName: "Device-" + JSON.stringify(parseMessage())
                                     hum: JSON.stringify(parseHum()) + " %"
@@ -109,26 +112,21 @@ Item {
 
 
                                 Edev { id: edev1}
-                            }
+                                }
+
                             RowLayout {
-                                anchors.right: parent.right
+                                Layout.alignment: Qt.AlignRight
                                 Edev { id: edev2 }
                                 Edev { id: edev3}
                             }
-
-
-
-
                         }
 
 
-
                     }
-                }
 
 
             }
 
         }
-
+}
 }
