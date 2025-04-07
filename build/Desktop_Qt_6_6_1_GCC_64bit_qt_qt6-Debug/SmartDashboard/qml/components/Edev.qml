@@ -4,7 +4,7 @@ import QtQuick.Layouts
 import com.example.messages 1.0
 Item {
     id: edev
-    width: 500
+    width: 400
     height: 400
     property alias deviceName: name.text
     property alias hum: hum.text

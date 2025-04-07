@@ -119,7 +119,6 @@ Item {
                 model: ['Menu', 'Fetch', 'Location', 'Explore', 'Notifications', 'Bookmarks', 'Messages', 'Profile', 'Setting']
                 delegate: Rectangle {
                     id: button
-
                     Layout.preferredWidth: 50
                     Layout.preferredHeight:(modelData === "Fetch" && fetchExpanded) ? 180: 50
                     radius: 10
@@ -148,7 +147,7 @@ Item {
                             PropertyChanges {
                                 target: button
                                 Layout.leftMargin: 10
-                                Layout.preferredWidth: model.index !== 0 ? 240 : 50
+                                Layout.preferredWidth: model.index !== 0 ? 200 : 50
                             }
 
                             PropertyChanges {
