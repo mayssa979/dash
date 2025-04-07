@@ -29,10 +29,7 @@ Item {
 
     function addMessage(payload)
     {
-
         try {
-
-
             messageModel.insert(0, {"payload" : payload})
             if (messageModel.count >= 10000){
                 messageModel.remove(99)
@@ -44,8 +41,6 @@ Item {
         }catch(e) {
             console.log("JSON parse error! ", e)
         }
-
-
     }
     property bool isConnected: false
 
