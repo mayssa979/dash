@@ -94,7 +94,7 @@ Item {
             else
                 columnItems.itemAt(index).state = 'middle';
 
-            if (++index != 9)
+            if (++index != 3)
                 timer.start();
         }
     }
@@ -116,7 +116,8 @@ Item {
             Repeater {
                 id: columnItems
 
-                model: ['Menu', 'Fetch', 'Location', 'Explore', 'Notifications', 'Bookmarks', 'Messages', 'Profile', 'Setting']
+                model: ['Menu', 'Fetch', 'Location']
+               //model: ['Menu', 'Fetch', 'Location', 'Explore', 'Notifications', 'Bookmarks', 'Messages', 'Profile', 'Setting']
                 delegate: Rectangle {
                     id: button
                     Layout.preferredWidth: 50

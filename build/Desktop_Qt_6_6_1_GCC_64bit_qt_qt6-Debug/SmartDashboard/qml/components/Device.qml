@@ -1,8 +1,8 @@
-import QtQuick
+/*import QtQuick
 import QtQuick.Controls
 import QtQuick.Layouts
 import com.example.messages 1.0
-/*Item {
+Item {
     width: 800
     height: 600
 
@@ -10,98 +10,100 @@ import com.example.messages 1.0
         anchors.fill: parent
         color: "#002147"
         z: -1
-        RowLayout {
-            anchors.fill: parent
+        ColumnLayout {
+
             spacing: 2
-            Text {
-                id: title
-                text: "LORA GATEWAY DASHBOARD"
-                font.family: "Serif"
-                font.pixelSize: 36
-                font.bold: true
-                Layout.alignment: Qt.AlignHCenter
-                color: "#B0C4DE"
-            }
             RowLayout {
-                Layout.alignment: Qt.AlignHCenter
-                spacing: 20
-                Rectangle {
-                    width: 80
-                    height: 2
-                    color: "#708090"
-                }
-                Rectangle {
-                    width: 80
-                    height: 2
-                    color: "#708090"
-                }
-            }
-            Button {
-                Layout.alignment: Qt.AlignHCenter
-                id: backButton
-                Layout.columnSpan: 2
-                Layout.fillWidth: true
-                text: "\u2190 Back"
-                onClicked: {
-                    pageLoader.source = ""
-                    pageLoader.source = "components/RightPane"
-                }
-            }
-        }
-        }
-
-
-
-
-            Flickable {
-                id: flickable
-                anchors.fill: parent
-                contentHeight: columnLayout.implicitHeight
-                flickableDirection: Flickable.VerticalFlick
-
-                function resetScroll() {
-                    contentY = 0
-                }
-                ScrollBar.vertical: ScrollBar {
-                    policy: ScrollBar.AlwaysOn
-                }
-
-                RowLayout{
-                   // Layout.fillHeight: true
-                    Layout.fillWidth: true
-                    anchors.fill: parent
-                    Item {
-                        width: parent.width * 0.25
-                       // height: parent.height
-                        Sidebar {
-                            Layout.fillHeight: true
-                            Layout.fillWidth: true
+                ColumnLayout{
+                    Layout.alignment: Qt.AlignTop
+                    Text {
+                        id: title
+                        text: "LORA GATEWAY DASHBOARD"
+                        font.family: "Serif"
+                        font.pixelSize: 36
+                        font.bold: true
+                        Layout.alignment: Qt.AlignHCenter
+                        color: "#B0C4DE"
+                    }
+                    RowLayout {
+                        Layout.alignment: Qt.AlignHCenter
+                        spacing: 20
+                        Rectangle {
+                            width: 80
+                            height: 2
+                            color: "#708090"
+                    }
+                    Rectangle {
+                        width: 80
+                        height: 2
+                        color: "#708090"
+                    }
+                    }
+                    Button {
+                        Layout.alignment: Qt.AlignHCenter
+                        id: backButton
+                        Layout.columnSpan: 2
+                        Layout.fillWidth: true
+                        text: "\u2190 Back"
+                        onClicked: {
+                            pageLoader.source = ""
+                            pageLoader.source = "components/RightPane"
                         }
                     }
-                    Item {
-                        width:  parent.width * 0.75
-                       // height: parent.height
-                        property string selectedMessage: ""
-                                ColumnLayout {
-                                    id: columnLayout
-                                    ColumnLayout {
-                                        RowLayout {
-                                            Edev { id: edev
-                                                deviceName: "Device-" + JSON.stringify(parseMessage())
-                                                hum: JSON.stringify(parseHum()) + " %"
-                                            }
-                                            Edev { id: edev1}
-                                            }
+                }
+            }
 
-                                        RowLayout {
-                                            Edev { id: edev2 }
-                                            Edev { id: edev3}
-                                        }
-                                    }
-                                }
+    RowLayout {
+
+        Flickable {
+            id: flickable
+            anchors.fill: parent
+            contentHeight: columnLayout.implicitHeight
+            flickableDirection: Flickable.VerticalFlick
+
+            function resetScroll() {
+                contentY = 0
+            }
+            ScrollBar.vertical: ScrollBar {
+                policy: ScrollBar.AlwaysOn
+            }
+
+
+            ColumnLayout {
+                Layout.preferredWidth: parent.width * 0.25
+                height: parent.height
+                Sidebar {
+                Layout.preferredHeight: parent.height}
+            }
+            ColumnLayout{
+                Layout.preferredWidth:  parent.width * 0.75
+                Layout.alignment: Qt.AlignRight
+                height: parent.height
+                property string selectedMessage: ""
+                ColumnLayout {
+                    id: columnLayout
+                    ColumnLayout{
+                        RowLayout {
+                            Edev{ id: edev
+                                deviceName: "Device-" + JSON.stringify(parseMessage())
+                                hum: JSON.stringify(parseHum()) + " %"
+                            }
+                                Edev { id: edev1}
+                        }
+                        RowLayout {
+                            Edev { id: edev2 }
+                            Edev { id: edev3}
                         }
                     }
+                }
+            }
         }
+    }}
+}
+
+
+
+
 
 
 
@@ -132,8 +134,13 @@ import com.example.messages 1.0
         }
 
 }*/
+import QtQuick
+import QtQuick.Controls
+import QtQuick.Layouts
+import com.example.messages 1.0
+
 Item {
-    width: 800
+    width: 950
     height: 600
 
     Rectangle {
@@ -141,25 +148,25 @@ Item {
         color: "#002147"
         z: -1
 
-        ColumnLayout {
+        Item {
             anchors.fill: parent
-            spacing: 1
 
-            // Top Row: Back Button and Title
-            RowLayout {
-                Layout.fillWidth: true
-                Layout.alignment: Qt.AlignTop
-                spacing: 20
-
+            // First row: Title and Button
+            Row {
+                id:tit
+                spacing: 10
+                anchors.horizontalCenter: parent.horizontalCenter
+                anchors.top: parent.top
+                anchors.topMargin: 10
                 Button {
                     id: backButton
                     text: "\u2190 Back"
+                    anchors.verticalCenter: parent.verticalCenter
                     onClicked: {
                         pageLoader.source = ""
                         pageLoader.source = "components/RightPane"
                     }
                 }
-
                 Text {
                     id: title
                     text: "LORA GATEWAY DASHBOARD"
@@ -167,68 +174,73 @@ Item {
                     font.pixelSize: 36
                     font.bold: true
                     color: "#B0C4DE"
-                    Layout.alignment: Qt.AlignHCenter
+                    anchors.verticalCenter: parent.verticalCenter
                 }
+
+
             }
 
-            // Row directly under Title and Back Button
+            // Second row: Sidebar and Edev
+            Row {
+                spacing: 10
+                anchors.horizontalCenter: parent.horizontalCenter
+                anchors.top: tit.bottom
+                anchors.topMargin: 20
+                anchors.left: parent.left
+                anchors.right: parent.right
 
-            RowLayout {
-                Layout.fillWidth: true
-               // Layout.alignment: Qt.AlignTop
-                spacing: 1
+                Column {
+                    id: sidebarContainer
+                   // width: parent.width * 0.25
+                    height: parent.height
+                    anchors.left: parent.left
+
+                    Sidebar {}
+                }
                 Flickable {
-                    id: flickable
-                    //anchors.fill: parent
-                   // contentHeight: columnLayout.implicitHeight
+                    id: flickableEdev
+                    width: parent.width * 0.75
+                    height: parent.height
+                    anchors.right: parent.right
+                    contentHeight: columnLayoutEdev.implicitHeight
                     flickableDirection: Flickable.VerticalFlick
-
                     function resetScroll() {
                         contentY = 0
                     }
                     ScrollBar.vertical: ScrollBar {
                         policy: ScrollBar.AlwaysOn
                     }
-                // Sidebar on the left
-                Item {
-                    width: parent.width * 0.25
-                    Sidebar {
-                        Layout.fillWidth: true
-                        Layout.fillHeight: true
-                    }
-                }
 
-                // Edev elements on the right
-                Item {
-                    width: parent.width * 0.75
-                    ColumnLayout {
-                        id: columnLayout
-                        spacing: 10
+                    Column {
+                        id: columnLayoutEdev
+                        spacing: 20
 
-                        RowLayout {
+                        Row {
+                            spacing: 10
                             Edev {
                                 id: edev
                                 deviceName: "Device-" + JSON.stringify(parseMessage())
                                 hum: JSON.stringify(parseHum()) + " %"
                             }
-                            Edev { id: edev1 }
+                                Edev { id: edev1 }
                         }
 
-                        RowLayout {
+                        Row {
+                            spacing: 10
                             Edev { id: edev2 }
                             Edev { id: edev3 }
                         }
                     }
+
                 }
-            }
             }
         }
     }
 
-    // Parsing functions
     function parseMessage() {
         try {
             var jsonObj = JSON.parse(MessageStore.message)
+            console.log("new gateway ", JSON.stringify(jsonObj.edev.id))
             return jsonObj.edev.id
         } catch (e) {
             console.log("JSON parse error! ", e)
@@ -238,6 +250,7 @@ Item {
     function parseHum() {
         try {
             var jsonObj = JSON.parse(MessageStore.message)
+            console.log("new gateway ", JSON.stringify(jsonObj.edev.humidity))
             return jsonObj.edev.humidity
         } catch (e) {
             console.log("JSON parse error! ", e)

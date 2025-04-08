@@ -2,8 +2,8 @@ import QtQuick
 import 'components'
 
 Window {
-    width: 1024
-    height: 768
+    width: 1100
+    height: 900
     visible: true
     title: qsTr("Smart Dashboard")
 
