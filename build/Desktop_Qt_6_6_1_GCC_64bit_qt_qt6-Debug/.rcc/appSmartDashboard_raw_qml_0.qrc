@@ -29,7 +29,6 @@
     <file alias="assets/icons/Profile.svg">/home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/assets/icons/Profile.svg</file>
     <file alias="assets/icons/Fetch.svg">/home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/assets/icons/Fetch.svg</file>
     <file alias="assets/icons/Setting.svg">/home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/assets/icons/Setting.svg</file>
-    <file alias="data.db">/home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/data.db</file>
   </qresource>
 </RCC>
 

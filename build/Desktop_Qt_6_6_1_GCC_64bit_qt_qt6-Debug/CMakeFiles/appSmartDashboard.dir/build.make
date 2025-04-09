@@ -298,7 +298,6 @@ SmartDashboard/appSmartDashboard.qmltypes: appsmartdashboard_qmltyperegistration
 .rcc/qrc_appSmartDashboard_raw_qml_0.cpp: /home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/assets/icons/Profile.svg
 .rcc/qrc_appSmartDashboard_raw_qml_0.cpp: /home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/assets/icons/Fetch.svg
 .rcc/qrc_appSmartDashboard_raw_qml_0.cpp: /home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/assets/icons/Setting.svg
-.rcc/qrc_appSmartDashboard_raw_qml_0.cpp: /home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/data.db
 .rcc/qrc_appSmartDashboard_raw_qml_0.cpp: .rcc/appSmartDashboard_raw_qml_0.qrc
 .rcc/qrc_appSmartDashboard_raw_qml_0.cpp: /home/Qt/6.6.1/gcc_64/./libexec/rcc
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/build/Desktop_Qt_6_6_1_GCC_64bit_qt_qt6-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Running rcc for resource appSmartDashboard_raw_qml_0"

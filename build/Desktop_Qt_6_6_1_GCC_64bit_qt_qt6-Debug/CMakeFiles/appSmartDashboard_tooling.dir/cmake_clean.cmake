@@ -12,7 +12,6 @@ file(REMOVE_RECURSE
   "SmartDashboard/assets/icons/Profile.svg"
   "SmartDashboard/assets/icons/Setting.svg"
   "SmartDashboard/assets/images/location.png"
-  "SmartDashboard/data.db"
   "SmartDashboard/qml/Main.qml"
   "SmartDashboard/qml/components/CircularProgressBar.qml"
   "SmartDashboard/qml/components/Device.qml"

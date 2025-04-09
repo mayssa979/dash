@@ -32,7 +32,7 @@ qt_add_qml_module(appSmartDashboard
         assets/icons/Profile.svg
         assets/icons/Fetch.svg
         assets/icons/Setting.svg
-        data.db
+
     QML_FILES
         qml/Main.qml
         qml/components/IconLabel.qml

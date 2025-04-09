@@ -182,10 +182,6 @@ SmartDashboard/assets/icons/Setting.svg: /home/maybensa@actia.local/Bureau/pfe/q
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/build/Desktop_Qt_6_6_1_GCC_64bit_qt_qt6-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Copying assets/icons/Setting.svg to /home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/build/Desktop_Qt_6_6_1_GCC_64bit_qt_qt6-Debug/SmartDashboard/assets/icons/Setting.svg"
 	cd /home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main && /home/Qt/Tools/CMake/bin/cmake -E copy /home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/assets/icons/Setting.svg /home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/build/Desktop_Qt_6_6_1_GCC_64bit_qt_qt6-Debug/SmartDashboard/assets/icons/Setting.svg
 
-SmartDashboard/data.db: /home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/data.db
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/build/Desktop_Qt_6_6_1_GCC_64bit_qt_qt6-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Copying data.db to /home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/build/Desktop_Qt_6_6_1_GCC_64bit_qt_qt6-Debug/SmartDashboard/data.db"
-	cd /home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main && /home/Qt/Tools/CMake/bin/cmake -E copy /home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/data.db /home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/build/Desktop_Qt_6_6_1_GCC_64bit_qt_qt6-Debug/SmartDashboard/data.db
-
 appSmartDashboard_tooling: SmartDashboard/assets/fonts/CodecPro-Italic.ttf
 appSmartDashboard_tooling: SmartDashboard/assets/fonts/CodecPro-Regular.ttf
 appSmartDashboard_tooling: SmartDashboard/assets/fonts/fontawesome.otf
@@ -199,7 +195,6 @@ appSmartDashboard_tooling: SmartDashboard/assets/icons/Notifications.svg
 appSmartDashboard_tooling: SmartDashboard/assets/icons/Profile.svg
 appSmartDashboard_tooling: SmartDashboard/assets/icons/Setting.svg
 appSmartDashboard_tooling: SmartDashboard/assets/images/location.png
-appSmartDashboard_tooling: SmartDashboard/data.db
 appSmartDashboard_tooling: SmartDashboard/qml/Main.qml
 appSmartDashboard_tooling: SmartDashboard/qml/components/CircularProgressBar.qml
 appSmartDashboard_tooling: SmartDashboard/qml/components/Device.qml
