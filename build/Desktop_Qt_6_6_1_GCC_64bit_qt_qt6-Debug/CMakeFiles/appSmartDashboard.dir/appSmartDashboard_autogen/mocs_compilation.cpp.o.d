@@ -1,10 +1,11 @@
 CMakeFiles/appSmartDashboard.dir/appSmartDashboard_autogen/mocs_compilation.cpp.o: \
   /home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/build/Desktop_Qt_6_6_1_GCC_64bit_qt_qt6-Debug/appSmartDashboard_autogen/mocs_compilation.cpp \
-  /home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/build/Desktop_Qt_6_6_1_GCC_64bit_qt_qt6-Debug/appSmartDashboard_autogen/SVODSI3R2M/moc_qmlmqttclient.cpp \
-  /home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/build/Desktop_Qt_6_6_1_GCC_64bit_qt_qt6-Debug/appSmartDashboard_autogen/SVODSI3R2M/../../../../cpp/qmlmqttclient.h \
-  /home/Qt/6.6.1/gcc_64/include/QtCore/QMap \
-  /home/Qt/6.6.1/gcc_64/include/QtCore/qmap.h \
-  /home/Qt/6.6.1/gcc_64/include/QtCore/qiterator.h \
+  /home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/build/Desktop_Qt_6_6_1_GCC_64bit_qt_qt6-Debug/appSmartDashboard_autogen/SVODSI3R2M/moc_databasemanager.cpp \
+  /home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/build/Desktop_Qt_6_6_1_GCC_64bit_qt_qt6-Debug/appSmartDashboard_autogen/SVODSI3R2M/../../../../cpp/databasemanager.h \
+  /home/Qt/6.6.1/gcc_64/include/QtCore/QObject \
+  /home/Qt/6.6.1/gcc_64/include/QtCore/qobject.h \
+  /home/Qt/6.6.1/gcc_64/include/QtCore/qobjectdefs.h \
+  /home/Qt/6.6.1/gcc_64/include/QtCore/qnamespace.h \
   /home/Qt/6.6.1/gcc_64/include/QtCore/qglobal.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/type_traits \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -172,19 +173,27 @@ CMakeFiles/appSmartDashboard.dir/appSmartDashboard_autogen/mocs_compilation.cpp.
   /home/Qt/6.6.1/gcc_64/include/QtCore/qtresource.h \
   /home/Qt/6.6.1/gcc_64/include/QtCore/qttranslation.h \
   /home/Qt/6.6.1/gcc_64/include/QtCore/qversiontagging.h \
-  /home/Qt/6.6.1/gcc_64/include/QtCore/qlist.h \
-  /home/Qt/6.6.1/gcc_64/include/QtCore/qarraydatapointer.h \
-  /home/Qt/6.6.1/gcc_64/include/QtCore/qarraydataops.h \
-  /home/Qt/6.6.1/gcc_64/include/QtCore/qarraydata.h \
-  /home/Qt/6.6.1/gcc_64/include/QtCore/qpair.h /usr/include/string.h \
-  /usr/include/strings.h \
-  /home/Qt/6.6.1/gcc_64/include/QtCore/qcontainertools_impl.h \
-  /home/Qt/6.6.1/gcc_64/include/QtCore/qxptype_traits.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/cstring \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/iterator \
+  /home/Qt/6.6.1/gcc_64/include/QtCore/qtmetamacros.h \
+  /home/Qt/6.6.1/gcc_64/include/QtCore/qobjectdefs_impl.h \
+  /home/Qt/6.6.1/gcc_64/include/QtCore/qfunctionaltools_impl.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/memory \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/allocator.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/ext/new_allocator.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/memoryfwd.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/stl_uninitialized.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/ext/alloc_traits.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/alloc_traits.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/stl_tempbuf.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/stl_raw_storage_iter.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/align.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bit \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/unique_ptr.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/stl_function.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward/binders.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/shared_ptr.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/iosfwd \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/stringfwd.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/memoryfwd.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/postypes.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/cwchar \
   /usr/include/wchar.h \
@@ -194,16 +203,9 @@ CMakeFiles/appSmartDashboard.dir/appSmartDashboard_autogen/mocs_compilation.cpp.
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/stream_iterator.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/streambuf_iterator.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/streambuf \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/localefwd.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/clocale \
-  /usr/include/locale.h /usr/include/x86_64-linux-gnu/bits/locale.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/cctype \
-  /usr/include/ctype.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/ios_base.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/shared_ptr_base.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/allocated_ptr.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/refwrap.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/ext/atomicity.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11/bits/gthr.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11/bits/gthr-default.h \
@@ -220,23 +222,61 @@ CMakeFiles/appSmartDashboard.dir/appSmartDashboard_autogen/mocs_compilation.cpp.
   /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11/bits/atomic_word.h \
   /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/ext/concurrence.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/shared_ptr_atomic.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward/auto_ptr.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/pstl/glue_memory_defs.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/pstl/execution_defs.h \
+  /home/Qt/6.6.1/gcc_64/include/QtCore/qstring.h \
+  /home/Qt/6.6.1/gcc_64/include/QtCore/qchar.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/functional \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/std_function.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/unordered_map \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/hashtable.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/hashtable_policy.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/node_handle.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/unordered_map.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/erase_if.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/vector \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/stl_vector.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/stl_bvector.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/vector.tcc \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/stl_algo.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/cstdlib \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/algorithmfwd.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/stl_heap.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/uniform_int_dist.h \
+  /home/Qt/6.6.1/gcc_64/include/QtCore/qstringview.h \
+  /home/Qt/6.6.1/gcc_64/include/QtCore/qbytearray.h \
+  /home/Qt/6.6.1/gcc_64/include/QtCore/qrefcount.h \
+  /home/Qt/6.6.1/gcc_64/include/QtCore/qarraydata.h \
+  /home/Qt/6.6.1/gcc_64/include/QtCore/qpair.h /usr/include/string.h \
+  /usr/include/strings.h \
+  /home/Qt/6.6.1/gcc_64/include/QtCore/qarraydatapointer.h \
+  /home/Qt/6.6.1/gcc_64/include/QtCore/qarraydataops.h \
+  /home/Qt/6.6.1/gcc_64/include/QtCore/qcontainertools_impl.h \
+  /home/Qt/6.6.1/gcc_64/include/QtCore/qxptype_traits.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/cstring \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/iterator \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/stream_iterator.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/streambuf_iterator.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/streambuf \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/localefwd.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/clocale \
+  /usr/include/locale.h /usr/include/x86_64-linux-gnu/bits/locale.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/cctype \
+  /usr/include/ctype.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/ios_base.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/locale_classes.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/string \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/char_traits.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/allocator.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/ext/new_allocator.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/ostream_insert.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/cxxabi_forced.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/stl_function.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward/binders.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/basic_string.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/ext/alloc_traits.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/alloc_traits.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/string_view \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/string_view.tcc \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/ext/string_conversions.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/cstdlib \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/cstdio \
   /usr/include/stdio.h \
   /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
@@ -256,50 +296,10 @@ CMakeFiles/appSmartDashboard.dir/appSmartDashboard_autogen/mocs_compilation.cpp.
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/stdexcept \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/streambuf.tcc \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/memory \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/stl_uninitialized.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/stl_tempbuf.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/stl_raw_storage_iter.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/align.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bit \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/unique_ptr.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/shared_ptr.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/shared_ptr_base.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/allocated_ptr.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/refwrap.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/ext/concurrence.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/shared_ptr_atomic.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward/auto_ptr.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/pstl/glue_memory_defs.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/pstl/execution_defs.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/algorithm \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/stl_algo.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/algorithmfwd.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/stl_heap.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/uniform_int_dist.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/pstl/glue_algorithm_defs.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/functional \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/std_function.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/unordered_map \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/hashtable.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/hashtable_policy.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/node_handle.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/unordered_map.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/erase_if.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/vector \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/stl_vector.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/stl_bvector.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/vector.tcc \
   /home/Qt/6.6.1/gcc_64/include/QtCore/q20functional.h \
   /home/Qt/6.6.1/gcc_64/include/QtCore/q20memory.h \
-  /home/Qt/6.6.1/gcc_64/include/QtCore/qnamespace.h \
-  /home/Qt/6.6.1/gcc_64/include/QtCore/qtmetamacros.h \
-  /home/Qt/6.6.1/gcc_64/include/QtCore/qhashfunctions.h \
-  /home/Qt/6.6.1/gcc_64/include/QtCore/qstring.h \
-  /home/Qt/6.6.1/gcc_64/include/QtCore/qchar.h \
-  /home/Qt/6.6.1/gcc_64/include/QtCore/qstringview.h \
-  /home/Qt/6.6.1/gcc_64/include/QtCore/qbytearray.h \
-  /home/Qt/6.6.1/gcc_64/include/QtCore/qrefcount.h \
   /home/Qt/6.6.1/gcc_64/include/QtCore/qbytearrayalgorithms.h \
   /home/Qt/6.6.1/gcc_64/include/QtCore/qbytearrayview.h \
   /home/Qt/6.6.1/gcc_64/include/QtCore/qstringfwd.h \
@@ -312,30 +312,50 @@ CMakeFiles/appSmartDashboard.dir/appSmartDashboard_autogen/mocs_compilation.cpp.
   /home/Qt/6.6.1/gcc_64/include/QtCore/qutf8stringview.h \
   /home/Qt/6.6.1/gcc_64/include/QtCore/qstringtokenizer.h \
   /home/Qt/6.6.1/gcc_64/include/QtCore/qstringbuilder.h \
+  /home/Qt/6.6.1/gcc_64/include/QtCore/qlist.h \
+  /home/Qt/6.6.1/gcc_64/include/QtCore/qhashfunctions.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/numeric \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/stl_numeric.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/pstl/glue_numeric_defs.h \
+  /home/Qt/6.6.1/gcc_64/include/QtCore/qiterator.h \
   /home/Qt/6.6.1/gcc_64/include/QtCore/qbytearraylist.h \
   /home/Qt/6.6.1/gcc_64/include/QtCore/qstringlist.h \
   /home/Qt/6.6.1/gcc_64/include/QtCore/qalgorithms.h \
   /home/Qt/6.6.1/gcc_64/include/QtCore/qstringmatcher.h \
-  /home/Qt/6.6.1/gcc_64/include/QtCore/qshareddata.h \
-  /home/Qt/6.6.1/gcc_64/include/QtCore/qshareddata_impl.h \
+  /home/Qt/6.6.1/gcc_64/include/QtCore/qscopedpointer.h \
+  /home/Qt/6.6.1/gcc_64/include/QtCore/qmetatype.h \
+  /home/Qt/6.6.1/gcc_64/include/QtCore/qcompare.h \
+  /home/Qt/6.6.1/gcc_64/include/QtCore/qdatastream.h \
+  /home/Qt/6.6.1/gcc_64/include/QtCore/qiodevicebase.h \
+  /home/Qt/6.6.1/gcc_64/include/QtCore/qfloat16.h \
+  /home/Qt/6.6.1/gcc_64/include/QtCore/qmath.h \
+  /home/Qt/6.6.1/gcc_64/include/QtCore/qiterable.h \
+  /home/Qt/6.6.1/gcc_64/include/QtCore/qmetacontainer.h \
+  /home/Qt/6.6.1/gcc_64/include/QtCore/qcontainerinfo.h \
+  /home/Qt/6.6.1/gcc_64/include/QtCore/qtaggedpointer.h \
+  /home/Qt/6.6.1/gcc_64/include/QtCore/qscopeguard.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/list \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/stl_list.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/list.tcc \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/map \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/stl_tree.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/stl_map.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/stl_multimap.h \
-  /home/Qt/6.6.1/gcc_64/include/QtMqtt/QMqttClient \
-  /home/Qt/6.6.1/gcc_64/include/QtMqtt/qmqttclient.h \
-  /home/Qt/6.6.1/gcc_64/include/QtMqtt/qmqttglobal.h \
-  /home/Qt/6.6.1/gcc_64/include/QtMqtt/qtmqttexports.h \
-  /home/Qt/6.6.1/gcc_64/include/QtMqtt/qmqttauthenticationproperties.h \
-  /home/Qt/6.6.1/gcc_64/include/QtMqtt/qmqtttype.h \
-  /home/Qt/6.6.1/gcc_64/include/QtCore/QDebug \
+  /home/Qt/6.6.1/gcc_64/include/QtCore/qobject_impl.h \
+  /home/Qt/6.6.1/gcc_64/include/QtCore/qbindingstorage.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/chrono \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/ratio \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/ctime \
+  /home/Qt/6.6.1/gcc_64/include/QtSql/QSqlDatabase \
+  /home/Qt/6.6.1/gcc_64/include/QtSql/qsqldatabase.h \
+  /home/Qt/6.6.1/gcc_64/include/QtSql/qtsqlglobal.h \
+  /home/Qt/6.6.1/gcc_64/include/QtSql/qtsql-config.h \
+  /home/Qt/6.6.1/gcc_64/include/QtSql/qtsqlexports.h \
+  /home/Qt/6.6.1/gcc_64/include/QtSql/QSqlQuery \
+  /home/Qt/6.6.1/gcc_64/include/QtSql/qsqlquery.h \
+  /home/Qt/6.6.1/gcc_64/include/QtCore/qvariant.h \
   /home/Qt/6.6.1/gcc_64/include/QtCore/qdebug.h \
   /home/Qt/6.6.1/gcc_64/include/QtCore/qtextstream.h \
-  /home/Qt/6.6.1/gcc_64/include/QtCore/qiodevicebase.h \
-  /home/Qt/6.6.1/gcc_64/include/QtCore/qscopedpointer.h \
   /home/Qt/6.6.1/gcc_64/include/QtCore/qstringconverter_base.h \
   /home/Qt/6.6.1/gcc_64/include/QtCore/qcontiguouscache.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/climits \
@@ -347,38 +367,30 @@ CMakeFiles/appSmartDashboard.dir/appSmartDashboard_autogen/mocs_compilation.cpp.
   /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
   /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
   /home/Qt/6.6.1/gcc_64/include/QtCore/qsharedpointer.h \
+  /home/Qt/6.6.1/gcc_64/include/QtCore/qshareddata.h \
   /home/Qt/6.6.1/gcc_64/include/QtCore/qsharedpointer_impl.h \
-  /home/Qt/6.6.1/gcc_64/include/QtCore/qmetatype.h \
-  /home/Qt/6.6.1/gcc_64/include/QtCore/qcompare.h \
-  /home/Qt/6.6.1/gcc_64/include/QtCore/qdatastream.h \
-  /home/Qt/6.6.1/gcc_64/include/QtCore/qfloat16.h \
-  /home/Qt/6.6.1/gcc_64/include/QtCore/qmath.h \
-  /home/Qt/6.6.1/gcc_64/include/QtCore/qiterable.h \
-  /home/Qt/6.6.1/gcc_64/include/QtCore/qmetacontainer.h \
-  /home/Qt/6.6.1/gcc_64/include/QtCore/qcontainerinfo.h \
-  /home/Qt/6.6.1/gcc_64/include/QtCore/qtaggedpointer.h \
-  /home/Qt/6.6.1/gcc_64/include/QtCore/qobjectdefs.h \
-  /home/Qt/6.6.1/gcc_64/include/QtCore/qobjectdefs_impl.h \
-  /home/Qt/6.6.1/gcc_64/include/QtCore/qfunctionaltools_impl.h \
-  /home/Qt/6.6.1/gcc_64/include/QtCore/qscopeguard.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/list \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/stl_list.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/list.tcc \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/chrono \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/ratio \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/ctime \
+  /home/Qt/6.6.1/gcc_64/include/QtCore/qmap.h \
+  /home/Qt/6.6.1/gcc_64/include/QtCore/qshareddata_impl.h \
   /home/Qt/6.6.1/gcc_64/include/QtCore/qset.h \
   /home/Qt/6.6.1/gcc_64/include/QtCore/qhash.h \
   /home/Qt/6.6.1/gcc_64/include/QtCore/qvarlengtharray.h \
+  /home/Qt/6.6.1/gcc_64/include/QtCore/q23utility.h \
+  /home/Qt/6.6.1/gcc_64/include/QtCore/QDebug \
+  /home/Qt/6.6.1/gcc_64/include/QtCore/qtmochelpers.h \
+  /home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/build/Desktop_Qt_6_6_1_GCC_64bit_qt_qt6-Debug/appSmartDashboard_autogen/SVODSI3R2M/moc_qmlmqttclient.cpp \
+  /home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/build/Desktop_Qt_6_6_1_GCC_64bit_qt_qt6-Debug/appSmartDashboard_autogen/SVODSI3R2M/../../../../cpp/qmlmqttclient.h \
+  /home/Qt/6.6.1/gcc_64/include/QtCore/QMap \
+  /home/Qt/6.6.1/gcc_64/include/QtMqtt/QMqttClient \
+  /home/Qt/6.6.1/gcc_64/include/QtMqtt/qmqttclient.h \
+  /home/Qt/6.6.1/gcc_64/include/QtMqtt/qmqttglobal.h \
+  /home/Qt/6.6.1/gcc_64/include/QtMqtt/qtmqttexports.h \
+  /home/Qt/6.6.1/gcc_64/include/QtMqtt/qmqttauthenticationproperties.h \
+  /home/Qt/6.6.1/gcc_64/include/QtMqtt/qmqtttype.h \
   /home/Qt/6.6.1/gcc_64/include/QtCore/QList \
   /home/Qt/6.6.1/gcc_64/include/QtCore/QPair \
   /home/Qt/6.6.1/gcc_64/include/QtCore/QSharedDataPointer \
   /home/Qt/6.6.1/gcc_64/include/QtCore/QString \
   /home/Qt/6.6.1/gcc_64/include/QtCore/QHash \
-  /home/Qt/6.6.1/gcc_64/include/QtCore/QObject \
-  /home/Qt/6.6.1/gcc_64/include/QtCore/qobject.h \
-  /home/Qt/6.6.1/gcc_64/include/QtCore/qobject_impl.h \
-  /home/Qt/6.6.1/gcc_64/include/QtCore/qbindingstorage.h \
   /home/Qt/6.6.1/gcc_64/include/QtMqtt/qmqttconnectionproperties.h \
   /home/Qt/6.6.1/gcc_64/include/QtMqtt/qmqttpublishproperties.h \
   /home/Qt/6.6.1/gcc_64/include/QtMqtt/qmqttsubscription.h \
@@ -399,8 +411,6 @@ CMakeFiles/appSmartDashboard.dir/appSmartDashboard_autogen/mocs_compilation.cpp.
   /home/Qt/6.6.1/gcc_64/include/QtNetwork/qtnetworkexports.h \
   /home/Qt/6.6.1/gcc_64/include/QtNetwork/qabstractsocket.h \
   /home/Qt/6.6.1/gcc_64/include/QtNetwork/qhostaddress.h \
-  /home/Qt/6.6.1/gcc_64/include/QtCore/qvariant.h \
-  /home/Qt/6.6.1/gcc_64/include/QtCore/q23utility.h \
   /home/Qt/6.6.1/gcc_64/include/QtNetwork/QSslConfiguration \
   /home/Qt/6.6.1/gcc_64/include/QtNetwork/qsslconfiguration.h \
   /home/Qt/6.6.1/gcc_64/include/QtNetwork/qsslsocket.h \
@@ -413,6 +423,8 @@ CMakeFiles/appSmartDashboard.dir/appSmartDashboard_autogen/mocs_compilation.cpp.
   /home/Qt/6.6.1/gcc_64/include/QtNetwork/qssl.h \
   /home/Qt/6.6.1/gcc_64/include/QtCore/QFlags \
   /home/Qt/6.6.1/gcc_64/include/QtMqtt/QMqttSubscription \
+  /home/Qt/6.6.1/gcc_64/include/QtSql/QSqlError \
+  /home/Qt/6.6.1/gcc_64/include/QtSql/qsqlerror.h \
   /home/Qt/6.6.1/gcc_64/include/QtQml/qqml.h \
   /home/Qt/6.6.1/gcc_64/include/QtQml/qqmlprivate.h \
   /home/Qt/6.6.1/gcc_64/include/QtQml/qtqmlglobal.h \
@@ -427,5 +439,4 @@ CMakeFiles/appSmartDashboard.dir/appSmartDashboard_autogen/mocs_compilation.cpp.
   /home/Qt/6.6.1/gcc_64/include/QtCore/qversionnumber.h \
   /home/Qt/6.6.1/gcc_64/include/QtCore/qmetaobject.h \
   /home/Qt/6.6.1/gcc_64/include/QtQml/qqmlregistration.h \
-  /home/Qt/6.6.1/gcc_64/include/QtQmlIntegration/qqmlintegration.h \
-  /home/Qt/6.6.1/gcc_64/include/QtCore/qtmochelpers.h
+  /home/Qt/6.6.1/gcc_64/include/QtQmlIntegration/qqmlintegration.h

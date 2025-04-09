@@ -4,7 +4,7 @@ import QtQuick.Layouts
 import QtQuick.Window
 import QtLocation
 import QtPositioning
-Item {
+Rectangle {
     Plugin {
         id: mapPlugin
         name: "osm"

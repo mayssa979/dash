@@ -63,6 +63,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/appSmartDashboard.dir/build/Desktop_Qt_6_6_1_GCC_64bit_qt_qt6-Debug/.rcc/qrc_appSmartDashboard_raw_qml_0.cpp.o.d"
   "CMakeFiles/appSmartDashboard.dir/build/Desktop_Qt_6_6_1_GCC_64bit_qt_qt6-Debug/.rcc/qrc_qmake_SmartDashboard.cpp.o"
   "CMakeFiles/appSmartDashboard.dir/build/Desktop_Qt_6_6_1_GCC_64bit_qt_qt6-Debug/.rcc/qrc_qmake_SmartDashboard.cpp.o.d"
+  "CMakeFiles/appSmartDashboard.dir/cpp/databasemanager.cpp.o"
+  "CMakeFiles/appSmartDashboard.dir/cpp/databasemanager.cpp.o.d"
   "CMakeFiles/appSmartDashboard.dir/cpp/main.cpp.o"
   "CMakeFiles/appSmartDashboard.dir/cpp/main.cpp.o.d"
   "CMakeFiles/appSmartDashboard.dir/cpp/qmlmqttclient.cpp.o"

@@ -4,7 +4,7 @@ project(SmartDashboard VERSION 0.1 LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-find_package(Qt6 6.4 REQUIRED COMPONENTS Quick QuickControls2 Mqtt)
+find_package(Qt6 6.4 REQUIRED COMPONENTS Quick QuickControls2 Sql Mqtt)
 
 qt_standard_project_setup()
 
@@ -12,6 +12,7 @@ qt_standard_project_setup()
 qt_add_executable(appSmartDashboard
     cpp/main.cpp
     cpp/qmlmqttclient.cpp
+    cpp/databasemanager.cpp
 )
 
 qt_add_qml_module(appSmartDashboard
@@ -31,6 +32,7 @@ qt_add_qml_module(appSmartDashboard
         assets/icons/Profile.svg
         assets/icons/Fetch.svg
         assets/icons/Setting.svg
+        data.db
     QML_FILES
         qml/Main.qml
         qml/components/IconLabel.qml
@@ -48,7 +50,9 @@ qt_add_qml_module(appSmartDashboard
         qml/messages/MessageStore.qml
         qml/components/Sidebar.qml
         qml/components/Gateways.qml
-        SOURCES cpp/qmlmqttclient.h
+    SOURCES
+        cpp/qmlmqttclient.h
+        cpp/databasemanager.h
 
 
 
@@ -67,7 +71,7 @@ set_target_properties(appSmartDashboard PROPERTIES
 
 target_link_libraries(appSmartDashboard
    # PRIVATE Qt6::Quick Qt6::QuickControls2
-    PRIVATE Qt6::Quick Qt6::QuickControls2 Qt6::Mqtt
+    PRIVATE Qt6::Quick Qt6::QuickControls2 Qt6::Mqtt Qt6::Sql
 )
 
 include(GNUInstallDirs)

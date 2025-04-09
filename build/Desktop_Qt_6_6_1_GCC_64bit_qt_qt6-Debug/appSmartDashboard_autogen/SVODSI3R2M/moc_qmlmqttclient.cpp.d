@@ -169,6 +169,15 @@
   /home/Qt/6.6.1/gcc_64/include/QtQml/qtqmlexports.h \
   /home/Qt/6.6.1/gcc_64/include/QtQml/qtqmlglobal.h \
   /home/Qt/6.6.1/gcc_64/include/QtQmlIntegration/qqmlintegration.h \
+  /home/Qt/6.6.1/gcc_64/include/QtSql/QSqlDatabase \
+  /home/Qt/6.6.1/gcc_64/include/QtSql/QSqlError \
+  /home/Qt/6.6.1/gcc_64/include/QtSql/QSqlQuery \
+  /home/Qt/6.6.1/gcc_64/include/QtSql/qsqldatabase.h \
+  /home/Qt/6.6.1/gcc_64/include/QtSql/qsqlerror.h \
+  /home/Qt/6.6.1/gcc_64/include/QtSql/qsqlquery.h \
+  /home/Qt/6.6.1/gcc_64/include/QtSql/qtsql-config.h \
+  /home/Qt/6.6.1/gcc_64/include/QtSql/qtsqlexports.h \
+  /home/Qt/6.6.1/gcc_64/include/QtSql/qtsqlglobal.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \

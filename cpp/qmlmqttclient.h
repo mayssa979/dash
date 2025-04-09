@@ -4,7 +4,9 @@
 #include <QtCore/QMap>
 #include <QtMqtt/QMqttClient>
 #include <QtMqtt/QMqttSubscription>
-
+#include<QtSql/QSqlDatabase>
+#include<QtSql/QSqlQuery>
+#include<QtSql/QSqlError>
 #include <QtQml/qqml.h>
 
 class QmlMqttClient;
@@ -17,6 +19,7 @@ class QmlMqttSubscription : public QObject
 public:
     QmlMqttSubscription(QMqttSubscription *s, QmlMqttClient *c);
     ~QmlMqttSubscription();
+    QSqlDatabase m_db;
 
 Q_SIGNALS:
     void topicChanged(QString);
@@ -30,6 +33,7 @@ private:
     QMqttSubscription *sub;
     QmlMqttClient *client;
     QMqttTopicFilter m_topic;
+
 };
 
 class QmlMqttClient : public QObject
@@ -47,6 +51,8 @@ public:
     Q_INVOKABLE void connectToHost();
     Q_INVOKABLE void disconnectFromHost();
     Q_INVOKABLE QmlMqttSubscription *subscribe(const QString &topic);
+
+    QSqlDatabase m_db;
 
     const QString hostname() const;
     void setHostname(const QString &newHostname);
@@ -66,6 +72,7 @@ signals:
 private:
     Q_DISABLE_COPY(QmlMqttClient)
     QMqttClient m_client;
+
 };
 
 #endif // QMLMQTTCLIENT_H

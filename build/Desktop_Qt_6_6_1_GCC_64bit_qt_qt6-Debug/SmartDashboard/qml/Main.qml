@@ -107,8 +107,6 @@ Window {
 
             LeftPane { id: leftItem }
 
-           // MiddlePane { id: middleItem }
-
             RightPane { id: rightItem }
         }
     }

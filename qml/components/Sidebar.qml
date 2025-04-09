@@ -117,7 +117,6 @@ Item {
                 id: columnItems
 
                 model: ['Menu', 'Fetch', 'Location']
-               //model: ['Menu', 'Fetch', 'Location', 'Explore', 'Notifications', 'Bookmarks', 'Messages', 'Profile', 'Setting']
                 delegate: Rectangle {
                     id: button
                     Layout.preferredWidth: 50
@@ -228,7 +227,6 @@ Item {
                         id: title
 
                         text: model.index === 0 ? '' : modelData
-                        //font.family: sourceSansProFont.name
                         anchors { verticalCenter: parent.verticalCenter; left: parent.left; leftMargin: 55 }
 
                     }

@@ -1,0 +1,178 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-89ee9457c3dff0256fb1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "SmartDashboard",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-883c3f982ce5a010f8de.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-f15fb4364573e0d25f56.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-c6382ad9a299500db9af.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-ecd24ddf8ed8a2766d34.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSmartDashboard::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSmartDashboard-Debug-9edc713945a22d4bdce7.json",
+					"name" : "appSmartDashboard",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSmartDashboard_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSmartDashboard_autogen-Debug-bd3b6fa9849352f8451f.json",
+					"name" : "appSmartDashboard_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSmartDashboard_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSmartDashboard_autogen_timestamp_deps-Debug-df03635e7a21b22f33ce.json",
+					"name" : "appSmartDashboard_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSmartDashboard_automoc_json_extraction::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSmartDashboard_automoc_json_extraction-Debug-8a526ab1e29a7b8be406.json",
+					"name" : "appSmartDashboard_automoc_json_extraction",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSmartDashboard_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSmartDashboard_qmlimportscan-Debug-bac499c2c75edea5954d.json",
+					"name" : "appSmartDashboard_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSmartDashboard_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSmartDashboard_qmllint-Debug-1868567e0452fa51cbdd.json",
+					"name" : "appSmartDashboard_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSmartDashboard_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSmartDashboard_qmllint_json-Debug-db1d5bdb7ec833d6c803.json",
+					"name" : "appSmartDashboard_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSmartDashboard_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSmartDashboard_qmllint_module-Debug-97ab237e0fc149ba92d3.json",
+					"name" : "appSmartDashboard_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSmartDashboard_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSmartDashboard_qmltyperegistration-Debug-30d552e57d49cb919c4a.json",
+					"name" : "appSmartDashboard_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSmartDashboard_tooling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSmartDashboard_tooling-Debug-8d9b116c479f1ca3c8e0.json",
+					"name" : "appSmartDashboard_tooling",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/build/Desktop_Qt_6_6_1_GCC_64bit_qt_qt6-Debug",
+		"source" : "/home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

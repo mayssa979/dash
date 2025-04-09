@@ -168,6 +168,15 @@ appSmartDashboard_autogen/timestamp: \
 	/home/Qt/6.6.1/gcc_64/include/QtQml/qtqmlexports.h \
 	/home/Qt/6.6.1/gcc_64/include/QtQml/qtqmlglobal.h \
 	/home/Qt/6.6.1/gcc_64/include/QtQmlIntegration/qqmlintegration.h \
+	/home/Qt/6.6.1/gcc_64/include/QtSql/QSqlDatabase \
+	/home/Qt/6.6.1/gcc_64/include/QtSql/QSqlError \
+	/home/Qt/6.6.1/gcc_64/include/QtSql/QSqlQuery \
+	/home/Qt/6.6.1/gcc_64/include/QtSql/qsqldatabase.h \
+	/home/Qt/6.6.1/gcc_64/include/QtSql/qsqlerror.h \
+	/home/Qt/6.6.1/gcc_64/include/QtSql/qsqlquery.h \
+	/home/Qt/6.6.1/gcc_64/include/QtSql/qtsql-config.h \
+	/home/Qt/6.6.1/gcc_64/include/QtSql/qtsqlexports.h \
+	/home/Qt/6.6.1/gcc_64/include/QtSql/qtsqlglobal.h \
 	/home/Qt/6.6.1/gcc_64/lib/cmake/Qt6/3rdparty/kwin/FindXKB.cmake \
 	/home/Qt/6.6.1/gcc_64/lib/cmake/Qt6/FindWrapAtomic.cmake \
 	/home/Qt/6.6.1/gcc_64/lib/cmake/Qt6/FindWrapOpenGL.cmake \
@@ -799,6 +808,35 @@ appSmartDashboard_autogen/timestamp: \
 	/home/Qt/6.6.1/gcc_64/lib/cmake/Qt6QuickTemplates2/Qt6QuickTemplates2Targets-relwithdebinfo.cmake \
 	/home/Qt/6.6.1/gcc_64/lib/cmake/Qt6QuickTemplates2/Qt6QuickTemplates2Targets.cmake \
 	/home/Qt/6.6.1/gcc_64/lib/cmake/Qt6QuickTemplates2/Qt6QuickTemplates2VersionlessTargets.cmake \
+	/home/Qt/6.6.1/gcc_64/lib/cmake/Qt6Sql/Qt6QMYSQLDriverPluginAdditionalTargetInfo.cmake \
+	/home/Qt/6.6.1/gcc_64/lib/cmake/Qt6Sql/Qt6QMYSQLDriverPluginConfig.cmake \
+	/home/Qt/6.6.1/gcc_64/lib/cmake/Qt6Sql/Qt6QMYSQLDriverPluginTargets-relwithdebinfo.cmake \
+	/home/Qt/6.6.1/gcc_64/lib/cmake/Qt6Sql/Qt6QMYSQLDriverPluginTargets.cmake \
+	/home/Qt/6.6.1/gcc_64/lib/cmake/Qt6Sql/Qt6QMimerSQLDriverPluginAdditionalTargetInfo.cmake \
+	/home/Qt/6.6.1/gcc_64/lib/cmake/Qt6Sql/Qt6QMimerSQLDriverPluginConfig.cmake \
+	/home/Qt/6.6.1/gcc_64/lib/cmake/Qt6Sql/Qt6QMimerSQLDriverPluginTargets-relwithdebinfo.cmake \
+	/home/Qt/6.6.1/gcc_64/lib/cmake/Qt6Sql/Qt6QMimerSQLDriverPluginTargets.cmake \
+	/home/Qt/6.6.1/gcc_64/lib/cmake/Qt6Sql/Qt6QODBCDriverPluginAdditionalTargetInfo.cmake \
+	/home/Qt/6.6.1/gcc_64/lib/cmake/Qt6Sql/Qt6QODBCDriverPluginConfig.cmake \
+	/home/Qt/6.6.1/gcc_64/lib/cmake/Qt6Sql/Qt6QODBCDriverPluginTargets-relwithdebinfo.cmake \
+	/home/Qt/6.6.1/gcc_64/lib/cmake/Qt6Sql/Qt6QODBCDriverPluginTargets.cmake \
+	/home/Qt/6.6.1/gcc_64/lib/cmake/Qt6Sql/Qt6QPSQLDriverPluginAdditionalTargetInfo.cmake \
+	/home/Qt/6.6.1/gcc_64/lib/cmake/Qt6Sql/Qt6QPSQLDriverPluginConfig.cmake \
+	/home/Qt/6.6.1/gcc_64/lib/cmake/Qt6Sql/Qt6QPSQLDriverPluginTargets-relwithdebinfo.cmake \
+	/home/Qt/6.6.1/gcc_64/lib/cmake/Qt6Sql/Qt6QPSQLDriverPluginTargets.cmake \
+	/home/Qt/6.6.1/gcc_64/lib/cmake/Qt6Sql/Qt6QSQLiteDriverPluginAdditionalTargetInfo.cmake \
+	/home/Qt/6.6.1/gcc_64/lib/cmake/Qt6Sql/Qt6QSQLiteDriverPluginConfig.cmake \
+	/home/Qt/6.6.1/gcc_64/lib/cmake/Qt6Sql/Qt6QSQLiteDriverPluginTargets-relwithdebinfo.cmake \
+	/home/Qt/6.6.1/gcc_64/lib/cmake/Qt6Sql/Qt6QSQLiteDriverPluginTargets.cmake \
+	/home/Qt/6.6.1/gcc_64/lib/cmake/Qt6Sql/Qt6SqlAdditionalTargetInfo.cmake \
+	/home/Qt/6.6.1/gcc_64/lib/cmake/Qt6Sql/Qt6SqlConfig.cmake \
+	/home/Qt/6.6.1/gcc_64/lib/cmake/Qt6Sql/Qt6SqlConfigVersion.cmake \
+	/home/Qt/6.6.1/gcc_64/lib/cmake/Qt6Sql/Qt6SqlConfigVersionImpl.cmake \
+	/home/Qt/6.6.1/gcc_64/lib/cmake/Qt6Sql/Qt6SqlDependencies.cmake \
+	/home/Qt/6.6.1/gcc_64/lib/cmake/Qt6Sql/Qt6SqlPlugins.cmake \
+	/home/Qt/6.6.1/gcc_64/lib/cmake/Qt6Sql/Qt6SqlTargets-relwithdebinfo.cmake \
+	/home/Qt/6.6.1/gcc_64/lib/cmake/Qt6Sql/Qt6SqlTargets.cmake \
+	/home/Qt/6.6.1/gcc_64/lib/cmake/Qt6Sql/Qt6SqlVersionlessTargets.cmake \
 	/home/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeCXXInformation.cmake \
 	/home/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
 	/home/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake \
@@ -840,6 +878,8 @@ appSmartDashboard_autogen/timestamp: \
 	/home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/build/Desktop_Qt_6_6_1_GCC_64bit_qt_qt6-Debug/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake \
 	/home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/build/Desktop_Qt_6_6_1_GCC_64bit_qt_qt6-Debug/CMakeFiles/3.30.5/CMakeSystem.cmake \
 	/home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/build/Desktop_Qt_6_6_1_GCC_64bit_qt_qt6-Debug/appSmartDashboard_autogen/moc_predefs.h \
+	/home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/cpp/databasemanager.cpp \
+	/home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/cpp/databasemanager.h \
 	/home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/cpp/main.cpp \
 	/home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/cpp/qmlmqttclient.cpp \
 	/home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/cpp/qmlmqttclient.h \

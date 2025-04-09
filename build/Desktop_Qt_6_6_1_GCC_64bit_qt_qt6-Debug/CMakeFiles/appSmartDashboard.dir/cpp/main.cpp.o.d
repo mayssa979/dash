@@ -461,4 +461,13 @@ CMakeFiles/appSmartDashboard.dir/cpp/main.cpp.o: \
   /home/Qt/6.6.1/gcc_64/include/QtCore/QFlags \
   /home/maybensa@actia.local/Bureau/pfe/qt/dashboard-main/cpp/qmlmqttclient.h \
   /home/Qt/6.6.1/gcc_64/include/QtCore/QMap \
-  /home/Qt/6.6.1/gcc_64/include/QtMqtt/QMqttSubscription
+  /home/Qt/6.6.1/gcc_64/include/QtMqtt/QMqttSubscription \
+  /home/Qt/6.6.1/gcc_64/include/QtSql/QSqlDatabase \
+  /home/Qt/6.6.1/gcc_64/include/QtSql/qsqldatabase.h \
+  /home/Qt/6.6.1/gcc_64/include/QtSql/qtsqlglobal.h \
+  /home/Qt/6.6.1/gcc_64/include/QtSql/qtsql-config.h \
+  /home/Qt/6.6.1/gcc_64/include/QtSql/qtsqlexports.h \
+  /home/Qt/6.6.1/gcc_64/include/QtSql/QSqlQuery \
+  /home/Qt/6.6.1/gcc_64/include/QtSql/qsqlquery.h \
+  /home/Qt/6.6.1/gcc_64/include/QtSql/QSqlError \
+  /home/Qt/6.6.1/gcc_64/include/QtSql/qsqlerror.h
